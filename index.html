@@ -1,23 +1,23 @@
 <!doctype html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Khalil Ben Saïd – Direction artistique &amp; Design</title>
-<meta name="description" content="Portfolio de Khalil Ben Saïd : direction artistique, design graphique et web design, Tunis.">
+<title>Khalil Ben Saïd – Art Direction &amp; Design</title>
+<meta name="description" content="Khalil Ben Saïd portfolio: art direction, graphic design and web design, Tunis.">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
 <style>
 html{scroll-behavior:smooth}
-body{margin:0}
+body{margin:0;background:#07060d}
 /* ===== COULEURS : modifiez ici ===== */
 #pf-root{--bg:#07060d;--ink:#f3f1fa;--mute:#aaa6c2;--main:#8f7bff;--c1:#ff6b8b;--c2:#ffb457;--c3:#3ee0c5;--c4:#4aa8ff;
 position:relative;overflow-x:clip;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.6}
 #pf-root *{box-sizing:border-box}
 .sec{position:relative;overflow:hidden;padding:120px 96px 120px 168px}
 .wrap{position:relative;z-index:1;max-width:1120px}
-.par{position:absolute;pointer-events:none;transform:translate3d(0,calc(var(--p,0)*var(--s,.1)*-1px),0)}
+.par{position:absolute;pointer-events:none;transform:translate3d(0,var(--py,0px),0);will-change:transform}
 .blob{border-radius:50%;filter:blur(90px);opacity:.42;animation:float 16s ease-in-out infinite alternate}
 @keyframes float{to{transform:translate3d(40px,-50px,0) scale(1.15)}}
 h1,h2,h3{font-family:Sora,Inter,sans-serif;margin:0;letter-spacing:-.02em}
@@ -53,41 +53,53 @@ p{margin:0}
 .orb{width:340px;height:340px;border-radius:50%;background:conic-gradient(from 0deg,var(--c1),var(--c2),var(--c3),var(--c4),var(--main),var(--c1));filter:blur(2px);opacity:.85;animation:spin 30s linear infinite}
 @keyframes spin{to{transform:rotate(360deg)}}
 .glass-orb{position:absolute;inset:14%;border-radius:50%;background:rgba(7,6,13,.45);-webkit-backdrop-filter:blur(24px);backdrop-filter:blur(24px);border:1px solid rgba(255,255,255,.2)}
-.pg{position:fixed;left:30px;top:50%;transform:translateY(-50%);z-index:60;display:flex;flex-direction:column;gap:26px}
-.pg a{writing-mode:vertical-rl;transform:rotate(180deg);font-size:12px;letter-spacing:.24em;text-transform:uppercase;text-decoration:none;color:#7f7b98;transition:color .4s,text-shadow .4s}
-.pg a:hover{color:var(--ink)}
-.pg a.on{color:var(--k,var(--main));text-shadow:0 0 18px var(--k,var(--main))}
+.pg{position:fixed;left:30px;top:50%;transform:translateY(-50%);z-index:60;display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:0;border:0;border-radius:0;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;max-width:calc(100vw - 60px);white-space:nowrap}
+.pg a{writing-mode:initial;transform:none;font-size:11px;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;color:#7f7b98;padding:2px 0;border-radius:0;background:transparent;transition:color .3s,text-shadow .3s}
+.pg a:hover{color:var(--ink);background:transparent}
+.pg a.on{color:var(--ink);background:transparent;text-shadow:0 0 14px rgba(74,168,255,.55)}
 footer{padding:36px 96px 36px 168px;color:var(--mute);font-size:13px;border-top:1px solid rgba(255,255,255,.08)}
 .car{position:relative;z-index:1;margin:48px -96px 0 -168px;padding:16px 0;overflow:hidden;cursor:grab;user-select:none;-webkit-user-select:none;touch-action:pan-y;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
 .car.grab{cursor:grabbing}
 .track{display:flex;width:max-content;will-change:transform}
-.track>.card{flex:none;width:380px;margin-right:22px;transition:transform .4s,border-color .3s,box-shadow .4s}
-.track>.card:hover{transform:translateY(-8px)}
+.track .card{flex:none;width:380px;margin-right:22px;transition:transform .4s,border-color .3s,box-shadow .4s}
+.track .card:hover{transform:translateY(-8px)}
 .track .ph{height:230px;pointer-events:none}
 .track img,.track video{-webkit-user-drag:none}
 
   /* campaign + journey + skills */
 .flow{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
-.flow li{padding:20px;border-top:2px solid var(--gold);background:rgba(255,255,255,.09);backdrop-filter:blur(14px);border-radius:0 0 14px 14px}
+.flow li{padding:20px;border-top:2px solid var(--c2);background:rgba(255,255,255,.09);backdrop-filter:blur(14px);border-radius:0 0 14px 14px}
 .flow h3{font-size:1.3rem;margin-bottom:6px}
 .stages{list-style:none;padding:0}
-.stages li{position:relative;padding:0 0 36px 34px;border-left:2px solid rgba(var(--txt),.2);margin-left:8px}
+.stages li{position:relative;padding:0 0 36px 34px;border-left:2px solid rgba(255,255,255,.2);margin-left:8px}
 .stages li:last-child{padding-bottom:0}
-.stages li::before{content:"";position:absolute;left:-10px;top:3px;width:18px;height:18px;border-radius:50%;border:2px solid var(--gold);background:var(--panel)}
-.stages li.h::before{background:linear-gradient(90deg,var(--gold) 50%,var(--panel) 50%)}
-.stages li.f::before{background:var(--gold)}
+.stages li::before{content:"";position:absolute;left:-10px;top:3px;width:18px;height:18px;border-radius:50%;border:2px solid var(--c2);background:var(--bg)}
+.stages li.h::before{background:linear-gradient(90deg,var(--c2) 50%,var(--bg) 50%)}
+.stages li.f::before{background:var(--c2)}
 .stages h3{font-size:1.6rem}
 .stages .when{font-size:.9rem}
 .groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:26px}
 .groups h3{font-size:1.25rem;margin-bottom:12px}
 .chips{display:flex;flex-wrap:wrap;gap:8px;list-style:none;padding:0}
-.chips li{padding:6px 14px;border:1px solid rgba(var(--txt),.4);border-radius:99px;font-size:.95rem;backdrop-filter:blur(8px)}
+.chips{gap:11px;margin:0}
+.chips li{position:relative;padding:9px 15px;border:1px solid rgba(255,255,255,.15);border-radius:99px;font-size:.9rem;line-height:1.4;color:var(--mute);background:rgba(255,255,255,.035);backdrop-filter:blur(8px);transition:transform .25s,border-color .25s,color .25s,background .25s;cursor:help}
+.chips li:hover,.chips li:focus{transform:translateY(-3px);border-color:rgba(70,165,255,.28);color:var(--ink);background:rgba(74,168,255,.07);box-shadow:0 0 10px rgba(60,155,255,.16),0 0 22px rgba(60,155,255,.10);outline:none}
+.skill-group{padding:0;border:0;border-radius:0;background:transparent;min-width:0}
+.skill-group h3{margin-bottom:18px}
+.skill-note{margin-top:24px;color:var(--mute);font-size:15px;font-style:italic}
+.skill-tip{position:absolute;left:50%;bottom:calc(100% + 12px);z-index:30;transform:translate(-50%,5px);width:max-content;max-width:min(260px,75vw);padding:10px 14px;border:0;border-radius:12px;background:rgba(20,25,43,.58);-webkit-backdrop-filter:blur(18px) saturate(145%);backdrop-filter:blur(18px) saturate(145%);color:var(--ink);font-size:12px;font-weight:400;line-height:1.4;text-align:center;white-space:normal;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .2s,transform .2s,visibility .2s;box-shadow:0 12px 32px rgba(0,0,0,.24),0 0 18px rgba(60,155,255,.06)}
+.chips li:hover .skill-tip,.chips li:focus .skill-tip{opacity:1;visibility:visible;transform:translate(-50%,0)}
+.lang-switch{position:fixed;top:20px;right:24px;z-index:80;display:flex;gap:3px;padding:4px;border:1px solid rgba(255,255,255,.13);border-radius:999px;background:rgba(12,10,22,.82);backdrop-filter:blur(18px)}
+.lang-switch button{border:0;border-radius:999px;padding:7px 10px;background:transparent;color:var(--mute);font:600 11px Inter,sans-serif;cursor:pointer}
+.lang-switch button[aria-pressed="true"]{background:var(--main);color:#0b0818}
+.contact-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}
+.contact-links .btn{cursor:pointer}
+.btn:focus-visible,.pg a:focus-visible,.lang-switch button:focus-visible{outline:2px solid var(--c3);outline-offset:3px}
 .contact h2{font-size:clamp(2.6rem,9vw,6rem)}
-.btn{display:inline-block;background:var(--gold);color:#1c1814;padding:13px 26px;border-radius:99px;text-decoration:none;font-weight:500}
 .links{display:flex;flex-wrap:wrap;gap:20px;margin-top:22px}
 .copy{margin-top:56px;font-size:.88rem}
  
-dialog{border:0;border-radius:20px;padding:0;width:min(760px,94vw);max-height:88vh;overflow:auto;background:#1b1426;color:rgb(var(--txt))}
+dialog{border:0;border-radius:20px;padding:0;width:min(760px,94vw);max-height:88vh;overflow:auto;background:#1b1426;color:var(--ink)}
 dialog::backdrop{background:rgba(8,5,14,.7)}
 dialog[open]{animation:pop .22s ease-out}
 @keyframes pop{from{transform:scale(.95);opacity:0}}
@@ -95,15 +107,14 @@ dialog iframe{width:100%;aspect-ratio:16/9;border:0;display:block}
 dialog img{width:100%;display:block}
 dialog .body{padding:26px 28px 30px}
 dialog h3{font-size:1.8rem;margin:4px 0}
-.close{position:sticky;top:10px;float:right;margin:10px 10px 0 0;z-index:2;width:38px;height:38px;border-radius:50%;border:0;background:var(--gold);color:#1c1814;font-size:1.1rem;cursor:pointer}
+.close{position:sticky;top:10px;float:right;margin:10px 10px 0 0;z-index:2;width:38px;height:38px;border-radius:50%;border:0;background:var(--c2);color:#1c1814;font-size:1.1rem;cursor:pointer}
 
   @media(max-width:800px){.split{grid-template-columns:1fr;gap:30px}}
-@media(max-width:560px){.wrap{padding:0 46px 0 32px}.rail{left:8px}.idx{right:8px}
-  .idx button::before{display:none}.idx button span{display:none;writing-mode:vertical-rl}.idx button.on span{display:block}
-  .idx button{padding:3px 0}.idx button:not(.on)::after{content:"";width:5px;height:5px;border-radius:50%;background:currentColor}}
+@media(max-width:700px){.pg{left:14px;top:50%;bottom:auto;right:auto;transform:translateY(-50%);max-width:calc(100vw - 28px);overflow:visible;justify-content:flex-start;gap:10px;padding:0;border:0;border-radius:0;background:transparent}.pg a{padding:2px 0;font-size:9px;letter-spacing:.08em}.lang-switch{top:12px;right:12px}.sec:first-of-type{padding-top:80px}}
+@media(max-width:560px){h1{font-size:clamp(40px,11vw,58px)}h2{font-size:clamp(32px,8vw,42px)}.lead{font-size:16px}.sec{padding:78px 22px}.car{margin:36px -22px 0}.track .card{width:min(290px,82vw)}footer{padding:24px 22px}.groups{grid-template-columns:1fr}.skill-group{padding:20px}.contact-links{gap:10px}.contact-links .btn{font-size:13px;padding:12px 16px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01s!important}html{scroll-behavior:auto}.rv{transform:none}}
   
-@media (max-width:900px){.car{margin:40px -24px 0}.track>.card{width:290px}.sec{padding:96px 24px}footer{padding:28px 24px}.pg,.orb-w{display:none}.grid3{grid-template-columns:1fr}}
+@media (max-width:900px){.car{margin:40px -24px 0}.track .card{width:290px}.sec{padding:96px 24px}footer{padding:28px 24px}.orb-w{display:none}.grid3{grid-template-columns:1fr}}
 @media (prefers-reduced-motion:reduce){.blob,.orb,.gt,.gm{animation:none}html{scroll-behavior:auto}}
 </style>
 
@@ -112,12 +123,18 @@ dialog h3{font-size:1.8rem;margin:4px 0}
 
 <div id="pf-root" style="width:100%">
 
+<div class="lang-switch" role="group" aria-label="Language selector">
+  <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+  <button type="button" data-lang="en" aria-pressed="false">EN</button>
+</div>
+
 <nav class="pg" aria-label="Sections">
-<a href="#accueil" style="--k:var(--c2)">Accueil</a>
-<a href="#parcours" style="--k:var(--c3)">Parcours</a>
-<a href="#expertise">Savoir-faire</a>
-<a href="#projets">Projets</a>
-<a href="#contact">Contact</a>
+<a href="#accueil" style="--k:var(--c2)" data-i18n="nav_home">Accueil</a>
+<a href="#parcours" style="--k:var(--c3)" data-i18n="nav_path">Parcours</a>
+<a href="#expertise" data-i18n="nav_expertise">Savoir-faire</a>
+<a href="#projets" data-i18n="nav_projects">Projets</a>
+<a href="#skills" data-i18n="nav_skills">Skills</a>
+<a href="#contact" data-i18n="nav_contact">Contact</a>
 </nav>
 
 <!-- ===== 1. ACCUEIL : multicolore ===== -->
@@ -128,15 +145,15 @@ dialog h3{font-size:1.8rem;margin:4px 0}
 <div class="par" style="bottom:20px;left:700px;--s:.12"><div class="blob" style="width:320px;height:320px;background:var(--c3);animation-delay:-2s"></div></div>
 <div class="par orb-w" style="top:170px;right:110px;--s:.35"><div class="orb"><div class="glass-orb"></div></div></div>
 <div class="wrap">
-<span class="k">Khalil Ben Saïd · Tunis</span>
-<h1>Je donne forme aux idées : <span class="gm">direction artistique, design graphique &amp; web.</span></h1>
-<p class="lead">Designer orienté direction artistique. Je conçois des identités, des interfaces et des univers visuels cohérents, avec un regard marketing B2B pour que chaque création serve un objectif.</p>
+<span class="k" data-i18n="hero_kicker">Khalil Ben Saïd · Tunis</span>
+<h1 data-i18n-html="hero_title">Je donne forme aux idées : <span class="gm">direction artistique, design graphique &amp; web.</span></h1>
+<p class="lead" data-i18n="hero_lead">Designer orienté direction artistique. Je conçois des identités, des interfaces et des univers visuels cohérents, avec un regard marketing B2B pour que chaque création serve un objectif.</p>
 <div class="row">
-<a class="btn p" href="#projets">Voir mes projets</a>
-<a class="btn" href="#contact">Me contacter</a>
+<a class="btn p" href="#projets" data-i18n="hero_projects">Voir mes projets</a>
+<a class="btn" href="#contact" data-i18n="hero_contact">Me contacter</a>
 </div>
 <div class="row" style="margin-top:34px;gap:10px">
-<span class="chip">Direction artistique</span><span class="chip">Design graphique</span><span class="chip">Web design</span><span class="chip">Illustration</span><span class="chip">Marketing B2B</span>
+<span class="chip" data-i18n="chip_art_direction">Direction artistique</span><span class="chip" data-i18n="chip_graphic_design">Design graphique</span><span class="chip" data-i18n="chip_web_design">Web design</span><span class="chip" data-i18n="chip_illustration">Illustration</span><span class="chip" data-i18n="chip_b2b">Marketing B2B</span>
 </div>
 </div>
 </section>
@@ -147,13 +164,13 @@ dialog h3{font-size:1.8rem;margin:4px 0}
 <div class="par" style="bottom:40px;left:420px;--s:.28"><div class="blob" style="width:340px;height:340px;background:var(--main);animation-delay:-6s"></div></div>
 <div class="par" style="top:260px;right:480px;--s:.1"><div class="blob" style="width:260px;height:260px;background:var(--c3);opacity:.25;animation-delay:-3s"></div></div>
 <div class="wrap">
-<span class="k">Parcours</span>
-<h2>Un regard d’artiste, <span class="gt">une logique de résultats.</span></h2>
-<p class="lead">[Quelques phrases sur votre parcours : formation, studios ou entreprises, ce qui guide votre direction artistique.] En parallèle, une pratique du marketing B2B (campagnes, HubSpot, LinkedIn Ads) qui nourrit des créations pensées pour convertir.</p>
+<span class="k" data-i18n="path_kicker">Parcours</span>
+<h2 data-i18n-html="path_title">Un regard d’artiste, <span class="gt">une logique de résultats.</span></h2>
+<p class="lead" data-i18n="path_lead">[Quelques phrases sur votre parcours : formation, studios ou entreprises, ce qui guide votre direction artistique.] En parallèle, une pratique du marketing B2B (campagnes, HubSpot, LinkedIn Ads) qui nourrit des créations pensées pour convertir.</p>
 <div class="grid3">
-<div class="card rv"><span class="tag">[Année – Année]</span><h3>[Poste]</h3><p>[Entreprise] — [votre rôle et une réalisation marquante].</p></div>
-<div class="card rv" style="--d:.12s"><span class="tag">[Année – Année]</span><h3>[Poste]</h3><p>[Entreprise] — [votre rôle et une réalisation marquante].</p></div>
-<div class="card rv" style="--d:.24s"><span class="tag">[Année]</span><h3>[Diplôme]</h3><p>[Établissement] — [domaine].</p></div>
+<div class="card rv"><span class="tag" data-i18n="placeholder_years">[Year – Year]</span><h3 data-i18n="placeholder_role">[Role]</h3><p data-i18n="placeholder_experience">[Company] — [your role and a key achievement].</p></div>
+<div class="card rv" style="--d:.12s"><span class="tag" data-i18n="placeholder_years">[Year – Year]</span><h3 data-i18n="placeholder_role">[Role]</h3><p data-i18n="placeholder_experience">[Company] — [your role and a key achievement].</p></div>
+<div class="card rv" style="--d:.24s"><span class="tag" data-i18n="placeholder_year">[Year]</span><h3 data-i18n="placeholder_degree">[Degree]</h3><p data-i18n="placeholder_school">[Institution] — [field].</p></div>
 </div>
 </div>
 </section>
@@ -163,15 +180,15 @@ dialog h3{font-size:1.8rem;margin:4px 0}
 <div class="par" style="top:120px;left:300px;--s:.22"><div class="blob" style="width:420px;height:420px;background:var(--main)"></div></div>
 <div class="par" style="bottom:60px;right:100px;--s:.3"><div class="blob" style="width:340px;height:340px;background:var(--c4);opacity:.3;animation-delay:-5s"></div></div>
 <div class="wrap">
-<span class="k">Savoir-faire</span>
-<h2>Concevoir, composer, <span class="gt">mettre en mouvement.</span></h2>
+<span class="k" data-i18n="expertise_kicker">Savoir-faire</span>
+<h2 data-i18n-html="expertise_title">Concevoir, composer, <span class="gt">mettre en mouvement.</span></h2>
 <div class="grid3" style="margin-top:56px">
-<div class="card rv"><h3>Direction artistique</h3><p>Concepts, moodboards, univers visuels et cohérence de bout en bout.</p></div>
-<div class="card rv" style="--d:.1s"><h3>Identité visuelle</h3><p>Logos, chartes graphiques et déclinaisons print et digitales.</p></div>
-<div class="card rv" style="--d:.2s"><h3>Web design</h3><p>Maquettes UI, landing pages et sites responsive, du wireframe à l’écran.</p></div>
-<div class="card rv"><h3>Éditorial &amp; supports</h3><p>Brochures, présentations, infographies et contenus réseaux sociaux.</p></div>
-<div class="card rv" style="--d:.1s"><h3>Illustration &amp; photo</h3><p>Illustration, digital painting et photographie pour enrichir chaque projet.</p></div>
-<div class="card rv" style="--d:.2s"><h3>Marketing &amp; performance</h3><p>LinkedIn Ads, HubSpot, webinars : le design au service de la conversion.</p></div>
+<div class="card rv"><h3 data-i18n="expertise_card1">Direction artistique</h3><p data-i18n="expertise_desc1">Concepts, moodboards, univers visuels et cohérence de bout en bout.</p></div>
+<div class="card rv" style="--d:.1s"><h3 data-i18n="expertise_card2">Identité visuelle</h3><p data-i18n="expertise_desc2">Logos, chartes graphiques et déclinaisons print et digitales.</p></div>
+<div class="card rv" style="--d:.2s"><h3 data-i18n="expertise_card3">Web design</h3><p data-i18n="expertise_desc3">Maquettes UI, landing pages et sites responsive, du wireframe à l’écran.</p></div>
+<div class="card rv"><h3 data-i18n="expertise_card4">Éditorial &amp; supports</h3><p data-i18n="expertise_desc4">Brochures, présentations, infographies et contenus réseaux sociaux.</p></div>
+<div class="card rv" style="--d:.1s"><h3 data-i18n="expertise_card5">Illustration &amp; photo</h3><p data-i18n="expertise_desc5">Illustration, digital painting et photographie pour enrichir chaque projet.</p></div>
+<div class="card rv" style="--d:.2s"><h3 data-i18n="expertise_card6">Marketing &amp; performance</h3><p data-i18n="expertise_desc6">LinkedIn Ads, HubSpot, webinars : le design au service de la conversion.</p></div>
 </div>
 </div>
 </section>
@@ -180,55 +197,81 @@ dialog h3{font-size:1.8rem;margin:4px 0}
 <section class="sec" id="projets">
 <div class="par" style="top:200px;right:140px;--s:.25"><div class="blob" style="width:440px;height:440px;background:var(--main);opacity:.3"></div></div>
 <div class="wrap">
-<span class="k">Projets</span>
-<h2>Des univers visuels, <span class="gt">du concept à l’écran.</span></h2>
-<p class="lead" style="margin-top:20px">Faites glisser pour explorer. <a href="https://www.behance.net/khalilbensaid" target="_blank" style="color:var(--main)">Tout voir sur Behance →</a></p>
+<span class="k" data-i18n="projects_kicker">Projets</span>
+<h2 data-i18n-html="projects_title">Des univers visuels, <span class="gt">du concept à l’écran.</span></h2>
+<p class="lead" style="margin-top:20px"><span data-i18n="projects_drag">Faites glisser pour explorer.</span> <a href="https://www.behance.net/khalilbensaid" target="_blank" rel="noopener noreferrer" style="color:var(--main)"><span data-i18n="behance_all">Tout voir sur Behance →</span></a></p>
 </div>
 <div class="car"><div class="track">
-<div class="card"><div class="ph">Image ou vidéo — projet 1</div><span class="tag">Direction artistique</span><h3>[Titre du projet]</h3><p>[Concept, intention, rôle et livrables.]</p></div>
-<div class="card"><div class="ph">Image ou vidéo — projet 2</div><span class="tag">Identité visuelle</span><h3>[Titre du projet]</h3><p>[Marque, univers, déclinaisons.]</p></div>
-<div class="card"><div class="ph">Image ou vidéo — projet 3</div><span class="tag">Web design</span><h3>[Titre du projet]</h3><p>[Parcours, interface, résultat en ligne.]</p></div>
-<div class="card"><div class="ph">Image ou vidéo — projet 4</div><span class="tag">Illustration · Digital painting</span><h3>[Titre du projet]</h3><p>[Technique, inspiration, usage.]</p></div>
-<div class="card"><div class="ph">Image ou vidéo — projet 5</div><span class="tag">Photographie</span><h3>[Titre du projet]</h3><p>[Série, intention, direction photo.]</p></div>
-<div class="card"><div class="ph">Image ou vidéo — projet 6</div><span class="tag">Marketing · Campagne B2B</span><h3>[Titre du projet]</h3><p>[Cible, canaux, résultat clé : +XX % de leads qualifiés.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_1">Image ou vidéo — projet 1</div><span class="tag" data-i18n="project_tag_art">Direction artistique</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc1">[Concept, intention, rôle et livrables.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_2">Image ou vidéo — projet 2</div><span class="tag" data-i18n="project_tag_identity">Identité visuelle</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc2">[Marque, univers, déclinaisons.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_3">Image ou vidéo — projet 3</div><span class="tag" data-i18n="project_tag_web">Web design</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc3">[Parcours, interface, résultat en ligne.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_4">Image ou vidéo — projet 4</div><span class="tag" data-i18n="project_tag_illustration">Illustration · Digital painting</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc4">[Technique, inspiration, usage.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_5">Image ou vidéo — projet 5</div><span class="tag" data-i18n="project_tag_photo">Photographie</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc5">[Série, intention, direction photo.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_6">Image ou vidéo — projet 6</div><span class="tag" data-i18n="project_tag_marketing">Marketing · Campagne B2B</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc6">[Cible, canaux, résultat clé : +XX % de leads qualifiés.]</p></div>
 <div style="display:contents" aria-hidden="true">
-<div class="card"><div class="ph">Image ou vidéo — projet 1</div><span class="tag">Direction artistique</span><h3>[Titre du projet]</h3><p>[Concept, intention, rôle et livrables.]</p></div>
-<div class="card"><div class="ph">Image ou vidéo — projet 2</div><span class="tag">Identité visuelle</span><h3>[Titre du projet]</h3><p>[Marque, univers, déclinaisons.]</p></div>
-<div class="card"><div class="ph">Image ou vidéo — projet 3</div><span class="tag">Web design</span><h3>[Titre du projet]</h3><p>[Parcours, interface, résultat en ligne.]</p></div>
-<div class="card"><div class="ph">Image ou vidéo — projet 4</div><span class="tag">Illustration · Digital painting</span><h3>[Titre du projet]</h3><p>[Technique, inspiration, usage.]</p></div>
-<div class="card"><div class="ph">Image ou vidéo — projet 5</div><span class="tag">Photographie</span><h3>[Titre du projet]</h3><p>[Série, intention, direction photo.]</p></div>
-<div class="card"><div class="ph">Image ou vidéo — projet 6</div><span class="tag">Marketing · Campagne B2B</span><h3>[Titre du projet]</h3><p>[Cible, canaux, résultat clé : +XX % de leads qualifiés.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_1">Image ou vidéo — projet 1</div><span class="tag" data-i18n="project_tag_art">Direction artistique</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc1">[Concept, intention, rôle et livrables.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_2">Image ou vidéo — projet 2</div><span class="tag" data-i18n="project_tag_identity">Identité visuelle</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc2">[Marque, univers, déclinaisons.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_3">Image ou vidéo — projet 3</div><span class="tag" data-i18n="project_tag_web">Web design</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc3">[Parcours, interface, résultat en ligne.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_4">Image ou vidéo — projet 4</div><span class="tag" data-i18n="project_tag_illustration">Illustration · Digital painting</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc4">[Technique, inspiration, usage.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_5">Image ou vidéo — projet 5</div><span class="tag" data-i18n="project_tag_photo">Photographie</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc5">[Série, intention, direction photo.]</p></div>
+<div class="card"><div class="ph" data-i18n="project_media_6">Image ou vidéo — projet 6</div><span class="tag" data-i18n="project_tag_marketing">Marketing · Campagne B2B</span><h3 data-i18n="project_title_placeholder">[Titre du projet]</h3><p data-i18n="project_desc6">[Cible, canaux, résultat clé : +XX % de leads qualifiés.]</p></div>
 </div>
 </div></div>
 </section>
 
   <div>
-<section class="scene st" data-l="Skills"><div class="wrap">
-  <h2 class="rv">Skills and tools.</h2>
-  <p class="lead rv">Only what I can back up.</p>
-  <div class="groups rv">
-    <div><h3>Hands-on</h3><ul class="chips"><li>Illustrator</li><li>Photoshop</li><li>InDesign</li><li>PowerPoint</li><li>Canva</li></ul></div>
-    <div><h3>Worked alongside</h3><ul class="chips"><li>LinkedIn Ads</li><li>Webinars and podcasts</li><li>B2B campaigns</li></ul></div>
-    <div><h3>Learning</h3><ul class="chips"><li>HubSpot</li></ul></div>
+<section class="sec" id="skills">
+  <div class="par" style="top:70px;right:70px;--s:.18"><div class="blob" style="width:360px;height:360px;background:var(--c3);opacity:.2"></div></div>
+  <div class="wrap">
+    <span class="k" data-i18n="skills_kicker">Skills &amp; tools</span>
+    <h2 class="rv" data-i18n="skills_title">Skills &amp; tools.</h2>
+    <p class="lead rv" data-i18n="skills_lead">Only what I can back up.</p>
+    <div class="groups" style="margin-top:38px">
+      <div class="skill-group rv"><h3 data-i18n="hands_on">Hands-on</h3><ul class="chips">
+        <li tabindex="0" data-skill="Illustrator">Illustrator<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-skill="Photoshop">Photoshop<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-skill="InDesign">InDesign<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-skill="After Effects">After Effects<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-skill="Premiere Pro">Premiere Pro<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-skill="Adobe XD">Adobe XD<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-skill="Substance">Substance<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+      </ul></div>
+      <div class="skill-group rv" style="--d:.12s"><h3 data-i18n="alongside">Worked alongside</h3><ul class="chips">
+        <li tabindex="0">LinkedIn Ads<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-i18n-html="webinars_pill">Webinars &amp; podcasts<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-i18n="b2b_pill">B2B campaigns<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+      </ul></div>
+      <div class="skill-group rv" style="--d:.24s"><h3 data-i18n="currently_learning">Currently Learning</h3><ul class="chips">
+        <li tabindex="0">HubSpot<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-i18n="guitar">Guitar<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-i18n="painting">Painting &amp; Sketching<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-i18n="coding">Coding<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-i18n="psychology">Psychology &amp; Human Behavior<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-i18n="storytelling">Visual Storytelling<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-i18n="survival">Survival Skills<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+        <li tabindex="0" data-i18n="learning_art">The Art of Learning<span class="skill-tip" data-i18n="tip_placeholder">Add your hover text here — edit this later.</span></li>
+      </ul><p class="skill-note" data-i18n="and_more">…and everything I thought I had already learnt.</p></div>
+    </div>
   </div>
-</div></section>
+</section>
 
 <!-- ===== 5. CONTACT ===== -->
 <section class="sec" id="contact" style="min-height:560px;display:flex;align-items:center">
 <div class="par" style="top:60px;left:360px;--s:.2"><div class="blob" style="width:480px;height:480px;background:var(--main);opacity:.35"></div></div>
 <div class="wrap">
-<span class="k">Contact</span>
-<h2>Créons quelque chose <span class="gt">qui marque.</span></h2>
-<p class="lead">Un projet, une collaboration, un poste ? Écrivez-moi, je réponds en français ou en anglais.</p>
-<div class="row">
-<a class="btn p" href="mailto:khalilbensaid8@gmail.com">khalilbensaid8@gmail.com</a>
-<a class="btn" href="tel:+21698784788">+216 98 784 788</a>
-<a class="btn" href="https://www.behance.net/khalilbensaid" target="_blank">Behance</a>
-<a class="btn" href="https://www.linkedin.com/in/med-khalil-ben-sa%C3%AFd-20a07991/" target="_blank">LinkedIn</a>
+<span class="k" data-i18n="contact_kicker">Contact</span>
+<h2 data-i18n-html="contact_title">Créons quelque chose <span class="gt">qui marque.</span></h2>
+<p class="lead" data-i18n="contact_lead">Un projet, une collaboration, un poste ? Écrivez-moi, je réponds en français ou en anglais.</p>
+<div class="contact-links">
+<a class="btn p" href="mailto:khalilbensaid8@gmail.com?subject=Let%E2%80%99s%20create%20something" data-i18n="email_cta">Send a signal ↗</a>
+<a class="btn" href="tel:+21698784788" data-i18n="phone_cta">Make the phone ring ↗</a>
+<a class="btn" href="https://www.behance.net/khalilbensaid" target="_blank" rel="noopener noreferrer" data-i18n="behance_cta">Explore Behance ↗</a>
+<a class="btn" href="https://www.linkedin.com/in/med-khalil-ben-sa%C3%AFd-20a07991/" target="_blank" rel="noopener noreferrer" data-i18n="linkedin_cta">Connect on LinkedIn ↗</a>
+<a class="btn" href="cv-khalil-ben-said.pdf" download data-i18n="cv_cta">Download CV (PDF) ↓</a>
 </div>
 </div>
 </section>
-<footer>© 2026 Khalil Ben Saïd · Tunis</footer>
+<footer><span data-i18n="footer">© 2026 Khalil Ben Saïd · Tunis</span></footer>
 
 </div>
 
@@ -242,7 +285,7 @@ function pfInit(){
   var rv=[].slice.call(root.querySelectorAll('.rv'));
   function upd(){
     var vh=window.innerHeight||800,cur=0;
-    secs.forEach(function(s,i){var r=s.getBoundingClientRect();s.style.setProperty('--p',Math.round(-r.top));if(r.top<=vh*0.5)cur=i;});
+    secs.forEach(function(s,i){var r=s.getBoundingClientRect();s.querySelectorAll('.par').forEach(function(p){var speed=parseFloat(p.style.getPropertyValue('--s'))||.1;p.style.setProperty('--py',Math.round(r.top*speed)+'px');});if(r.top<=vh*0.5)cur=i;});
     links.forEach(function(l,i){l.classList.toggle('on',i===cur);});
     rv.forEach(function(e){if(e.getBoundingClientRect().top<vh*0.92)e.classList.add('in');});
   }
@@ -273,7 +316,36 @@ function pfInit(){
   upd();
 }
 
-document.addEventListener('DOMContentLoaded',pfInit);
+var pfTranslations = {
+  fr: {
+    project_media_1:'Image ou vidéo — projet 1',project_media_2:'Image ou vidéo — projet 2',project_media_3:'Image ou vidéo — projet 3',project_media_4:'Image ou vidéo — projet 4',project_media_5:'Image ou vidéo — projet 5',project_media_6:'Image ou vidéo — projet 6',project_tag_art:'Direction artistique',project_tag_identity:'Identité visuelle',project_tag_web:'Web design',project_tag_illustration:'Illustration · Digital painting',project_tag_photo:'Photographie',project_tag_marketing:'Marketing · Campagne B2B',chip_art_direction:'Direction artistique',chip_graphic_design:'Design graphique',chip_web_design:'Web design',chip_illustration:'Illustration',chip_b2b:'Marketing B2B',path_lead:'[Quelques phrases sur votre parcours : formation, studios ou entreprises, ce qui guide votre direction artistique.] En parallèle, une pratique du marketing B2B (campagnes, HubSpot, LinkedIn Ads) qui nourrit des créations pensées pour convertir.',placeholder_years:'[Année – Année]',placeholder_role:'[Poste]',placeholder_experience:'[Entreprise] — [votre rôle et une réalisation marquante].',placeholder_year:'[Année]',placeholder_degree:'[Diplôme]',placeholder_school:'[Établissement] — [domaine].',expertise_card1:'Direction artistique',expertise_desc1:'Concepts, moodboards, univers visuels et cohérence de bout en bout.',expertise_card2:'Identité visuelle',expertise_desc2:'Logos, chartes graphiques et déclinaisons print et digitales.',expertise_card3:'Web design',expertise_desc3:'Maquettes UI, landing pages et sites responsive, du wireframe à l’écran.',expertise_card4:'Éditorial & supports',expertise_desc4:'Brochures, présentations, infographies et contenus réseaux sociaux.',expertise_card5:'Illustration & photo',expertise_desc5:'Illustration, digital painting et photographie pour enrichir chaque projet.',expertise_card6:'Marketing & performance',expertise_desc6:'LinkedIn Ads, HubSpot, webinaires : le design au service de la conversion.',project_title_placeholder:'[Titre du projet]',project_desc1:'[Concept, intention, rôle et livrables.]',project_desc2:'[Marque, univers, déclinaisons.]',project_desc3:'[Parcours, interface, résultat en ligne.]',project_desc4:'[Technique, inspiration, usage.]',project_desc5:'[Série, intention, direction photo.]',project_desc6:'[Cible, canaux, résultat clé : +XX % de leads qualifiés.]',nav_home:'Accueil',nav_path:'Parcours',nav_expertise:'Savoir-faire',nav_projects:'Projets',nav_skills:'Skills',nav_contact:'Contact',
+    hero_kicker:'Khalil Ben Saïd · Tunis',hero_title:'Je donne forme aux idées : <span class="gm">direction artistique, design graphique &amp; web.</span>',hero_lead:'Designer orienté direction artistique. Je conçois des identités, des interfaces et des univers visuels cohérents, avec un regard marketing B2B pour que chaque création serve un objectif.',hero_projects:'Voir mes projets',hero_contact:'Me contacter',
+    path_kicker:'Parcours',path_title:'Un regard d’artiste, <span class="gt">une logique de résultats.</span>',expertise_kicker:'Savoir-faire',expertise_title:'Concevoir, composer, <span class="gt">mettre en mouvement.</span>',projects_kicker:'Projets',projects_title:'Des univers visuels, <span class="gt">du concept à l’écran.</span>',projects_drag:'Faites glisser pour explorer.',behance_all:'Tout voir sur Behance →',
+    skills_kicker:'Skills &amp; tools',skills_title:'Skills &amp; tools.',skills_lead:'Uniquement ce que je peux démontrer.',hands_on:'Maîtrise pratique',alongside:'Expériences connexes',currently_learning:'En cours d’apprentissage',
+    webinars_pill:'Webinaires &amp; podcasts',b2b_pill:'Campagnes B2B',guitar:'Guitare',painting:'Peinture &amp; dessin',coding:'Programmation',psychology:'Psychologie &amp; comportement humain',storytelling:'Narration visuelle',survival:'Techniques de survie',learning_art:'L’art d’apprendre',and_more:'…et tout ce que je pensais avoir déjà appris.',tip_placeholder:'Ajoutez ici le texte au survol — à personnaliser plus tard.',
+    contact_kicker:'Contact',contact_title:'Créons quelque chose <span class="gt">qui marque.</span>',contact_lead:'Un projet, une collaboration, un poste ? Écrivez-moi, je réponds en français ou en anglais.',email_cta:'Envoyer un signal ↗',phone_cta:'Faire sonner le téléphone ↗',behance_cta:'Explorer Behance ↗',linkedin_cta:'Me retrouver sur LinkedIn ↗',cv_cta:'Télécharger le CV (PDF) ↓',footer:'© 2026 Khalil Ben Saïd · Tunis'
+  },
+  en: {
+    project_media_1:'Image or video — project 1',project_media_2:'Image or video — project 2',project_media_3:'Image or video — project 3',project_media_4:'Image or video — project 4',project_media_5:'Image or video — project 5',project_media_6:'Image or video — project 6',project_tag_art:'Art direction',project_tag_identity:'Visual identity',project_tag_web:'Web design',project_tag_illustration:'Illustration · Digital painting',project_tag_photo:'Photography',project_tag_marketing:'Marketing · B2B campaign',chip_art_direction:'Art direction',chip_graphic_design:'Graphic design',chip_web_design:'Web design',chip_illustration:'Illustration',chip_b2b:'B2B marketing',path_lead:'[A few lines about your background: education, studios or companies, and what shapes your art direction.] Alongside this, my B2B marketing experience (campaigns, HubSpot, LinkedIn Ads) informs creative work built to convert.',placeholder_years:'[Year – Year]',placeholder_role:'[Role]',placeholder_experience:'[Company] — [your role and a key achievement].',placeholder_year:'[Year]',placeholder_degree:'[Degree]',placeholder_school:'[Institution] — [field].',expertise_card1:'Art direction',expertise_desc1:'Concepts, moodboards, visual worlds and end-to-end consistency.',expertise_card2:'Visual identity',expertise_desc2:'Logos, brand guidelines, and print and digital adaptations.',expertise_card3:'Web design',expertise_desc3:'UI design, landing pages and responsive websites, from wireframe to screen.',expertise_card4:'Editorial & collateral',expertise_desc4:'Brochures, presentations, infographics and social media content.',expertise_card5:'Illustration & photography',expertise_desc5:'Illustration, digital painting and photography to enrich each project.',expertise_card6:'Marketing & performance',expertise_desc6:'LinkedIn Ads, HubSpot, webinars: design in service of conversion.',project_title_placeholder:'[Project title]',project_desc1:'[Concept, intent, role and deliverables.]',project_desc2:'[Brand, visual world and adaptations.]',project_desc3:'[User journey, interface and live result.]',project_desc4:'[Technique, inspiration and use.]',project_desc5:'[Series, intent and photo direction.]',project_desc6:'[Audience, channels, key result: +XX% qualified leads.]',nav_home:'Home',nav_path:'Journey',nav_expertise:'Expertise',nav_projects:'Projects',nav_skills:'Skills',nav_contact:'Contact',
+    hero_kicker:'Khalil Ben Saïd · Tunis',hero_title:'I give ideas form: <span class="gm">art direction, graphic design &amp; web.</span>',hero_lead:'Art-direction-minded designer creating identities, interfaces and cohesive visual worlds, with a B2B marketing perspective so every design serves a purpose.',hero_projects:'Explore my work',hero_contact:'Get in touch',
+    path_kicker:'Journey',path_title:'An artist’s eye, <span class="gt">a results-driven mindset.</span>',expertise_kicker:'Expertise',expertise_title:'Conceptualize, compose, <span class="gt">bring ideas to life.</span>',projects_kicker:'Projects',projects_title:'Visual worlds, <span class="gt">from concept to screen.</span>',projects_drag:'Drag to explore.',behance_all:'View everything on Behance →',
+    skills_kicker:'Skills &amp; tools',skills_title:'Skills &amp; tools.',skills_lead:'Only what I can back up.',hands_on:'Hands-on',alongside:'Worked alongside',currently_learning:'Currently Learning',
+    webinars_pill:'Webinars &amp; podcasts',b2b_pill:'B2B campaigns',guitar:'Guitar',painting:'Painting &amp; Sketching',coding:'Coding',psychology:'Psychology &amp; Human Behavior',storytelling:'Visual Storytelling',survival:'Survival Skills',learning_art:'The Art of Learning',and_more:'…and everything I thought I had already learnt.',tip_placeholder:'Add your hover text here — edit this later.',
+    contact_kicker:'Contact',contact_title:'Let’s create something <span class="gt">memorable.</span>',contact_lead:'A project, a collaboration, a role? Drop me a line — I reply in English or French.',email_cta:'Send a signal ↗',phone_cta:'Make the phone ring ↗',behance_cta:'Explore Behance ↗',linkedin_cta:'Connect on LinkedIn ↗',cv_cta:'Download CV (PDF) ↓',footer:'© 2026 Khalil Ben Saïd · Tunis'
+  }
+};
+function pfSetLanguage(lang){
+  var root=document.getElementById('pf-root');if(!root||!pfTranslations[lang])return;
+  root.setAttribute('lang',lang);document.documentElement.lang=lang;
+  root.querySelectorAll('[data-i18n]').forEach(function(el){var key=el.getAttribute('data-i18n');if(pfTranslations[lang][key]===undefined)return;var tip=el.querySelector('.skill-tip');var temp=document.createElement('div');temp.innerHTML=pfTranslations[lang][key];var decoded=temp.textContent;if(tip){var first=Array.prototype.find.call(el.childNodes,function(n){return n.nodeType===3;});if(first)first.nodeValue=decoded;}else{el.textContent=decoded;}});
+  root.querySelectorAll('[data-i18n-html]').forEach(function(el){var key=el.getAttribute('data-i18n-html');if(pfTranslations[lang][key]===undefined)return;var tip=el.querySelector('.skill-tip');if(tip){var first=Array.prototype.find.call(el.childNodes,function(n){return n.nodeType===3;});var temp=document.createElement('div');temp.innerHTML=pfTranslations[lang][key];if(first)first.nodeValue=temp.textContent;}else{el.innerHTML=pfTranslations[lang][key];}});
+  root.querySelectorAll('.lang-switch button').forEach(function(btn){btn.setAttribute('aria-pressed',btn.getAttribute('data-lang')===lang?'true':'false');});
+  try{localStorage.setItem('pf-language',lang);}catch(e){}
+}
+document.querySelectorAll('.lang-switch button').forEach(function(btn){btn.addEventListener('click',function(){pfSetLanguage(btn.getAttribute('data-lang'));});});
+
+function pfStart(){pfInit();var lang='en';try{lang=localStorage.getItem('pf-language')||'en';}catch(e){}pfSetLanguage(lang);}
+if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',pfStart);}else{pfStart();}
 </script>
 </body>
 </html>
