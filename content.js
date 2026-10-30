@@ -124,6 +124,17 @@ window.SITE = {
 
   /* PROJECTS. Replace the examples with your own. image / video / link are optional. */
   projects: [
+     {
+      title: "Focus",
+      tag: { fr: "Branding, identity & Web", en: "Branding & Web" },
+      summary: { fr: "Tout ce qui contribue à la visibilité et au rayonnement d’une marque : contenus pour les réseaux sociaux, design web et interfaces utilisateur, montage vidéo, motion design, supports print, événements, et bien plus..", en: "Everything related to brand visibility, social media creatives, ui & web design, video editing, animations, prints, events and much more." },
+      description: { fr: "Branding, visual identity, touchopints, and website design", en: "Branding, identité visuelle, des différents supports de com. et une site web" },
+      role: { fr: "Marketing, Branding, identité, web...", en: "Marketing, Branding, identity, web..." },
+      year: "2026",
+      image: "Assets/Focus-Logo.jpg",                  // for example "assets/fdt.jpg"
+      video: "",                  // a YouTube link, or a file like "assets/fdt.mp4"
+      link: ""
+    },
     {
       title: "FDT",
       tag: { fr: "Branding & Web", en: "Branding & Web" },
