@@ -17,7 +17,7 @@ window.SITE = {
   name: "Khalil Ben Saïd",
   role: { fr: "Direction artistique & design", en: "Art Direction & Design" },
   location: { fr: "Tunis", en: "Tunis" },
-  logo: "",                       // for example "assets/logo.svg". Empty = your first letter.
+  logo: "assets/K-Logo-01.png",                       // for example "assets/logo.svg". Empty = your first letter.
   defaultLanguage: "en",          // "en" or "fr"
   languages: [ { code: "fr", label: "FR" }, { code: "en", label: "EN" } ],
 
