@@ -17,7 +17,7 @@ window.SITE = {
   name: "Khalil Ben Saïd",
   role: { fr: "Direction artistique & design", en: "Art Direction & Design" },
   location: { fr: "Tunis", en: "Tunis" },
-  logo: "assets/K-Logo-01.png",                       // for example "assets/logo.svg". Empty = your first letter.
+  logo: "Assets/K-Logo-01.png",                       // for example "assets/logo.svg". Empty = your first letter.
   defaultLanguage: "en",          // "en" or "fr"
   languages: [ { code: "fr", label: "FR" }, { code: "en", label: "EN" } ],
 
@@ -131,7 +131,7 @@ window.SITE = {
       description: { fr: "Branding, visual identity, touchopints, and website design", en: "Branding, identité visuelle, des différents supports de com. et une site web" },
       role: { fr: "Logo et identité", en: "Logo and identity" },
       year: "2026",
-      image: "assets/FDT logo Display-01.svg ",                  // for example "assets/fdt.jpg"
+      image: "Assets/FDT logo Display-01.svg ",                  // for example "assets/fdt.jpg"
       video: "",                  // a YouTube link, or a file like "assets/fdt.mp4"
       link: ""
     },
@@ -141,7 +141,7 @@ window.SITE = {
       summary: { fr: "Identité pour une plateforme de test.", en: "Identity for a testing Platform." },
       description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
       role: { fr: "Logo, identité, direction artistique & webdesign", en: "Logo, identity, artistic direction & webdesign" },
-      year: "2025", image: "assets/QA_Verse_Logo-03.png", video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA&t=1s", link: "https://focus-corporation.com/qaverse/"
+      year: "2025", image: "Assets/QA_Verse_Logo-03.png", video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA&t=1s", link: "https://focus-corporation.com/qaverse/"
     },
     {
       title: "Social Media",
