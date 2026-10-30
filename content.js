@@ -69,6 +69,7 @@ window.SITE = {
         { title: { fr: "Direction artistique", en: "Art direction" }, text: { fr: "Concepts, moodboards, univers visuels et cohérence de bout en bout.", en: "Concepts, moodboards, visual worlds and end-to-end consistency." } },
         { title: { fr: "Identité visuelle", en: "Visual identity" }, text: { fr: "Logos, chartes graphiques et déclinaisons print et digitales.", en: "Logos, brand guidelines, and print and digital adaptations." } },
         { title: { fr: "Web design", en: "Web design" }, text: { fr: "Maquettes UI, landing pages et sites responsive, du wireframe à l’écran.", en: "UI design, landing pages and responsive websites, from wireframe to screen." } },
+        { title: { fr: "Vidéos", en: "Vides" }, text: { fr: "Production vidéo, montage & animation graphique", en: "video production, editing & motion graphics" } },
         { title: { fr: "Éditorial & supports", en: "Editorial & collateral" }, text: { fr: "Brochures, présentations, infographies et contenus réseaux sociaux.", en: "Brochures, presentations, infographics and social media content." } },
         { title: { fr: "Illustration & photo", en: "Illustration & photography" }, text: { fr: "Illustration, digital painting et photographie pour enrichir chaque projet.", en: "Illustration, digital painting and photography to enrich each project." } },
         { title: { fr: "Marketing & performance", en: "Marketing & performance" }, text: { fr: "LinkedIn Ads, HubSpot, webinaires : le design au service de la conversion.", en: "LinkedIn Ads, HubSpot, webinars: design in service of conversion." } }
@@ -79,7 +80,7 @@ window.SITE = {
       kicker: { fr: "Projets", en: "Projects" },
       title: { fr: "Des univers visuels, **du concept à l’écran.**", en: "Visual worlds, **from concept to screen.**" },
       hint: { fr: "Faites glisser pour explorer.", en: "Drag to explore." },
-      behanceText: { fr: "Tout voir sur Behance →", en: "View everything on Behance →" }
+      behanceText: { fr: "Découvrir mes travaux artistiques →", en: "Discover my artwork →" }
     },
 
     skills: {
@@ -88,9 +89,9 @@ window.SITE = {
       lead: { fr: "Uniquement ce que je peux démontrer.", en: "Only what I can back up." },
       groups: [
         { title: { fr: "Maîtrise pratique", en: "Hands-on" }, items: [
-          { name: "AI", tip: "" },
-          { name: "PS", tip: "" },
-          { name: "ID", tip: "" },
+          { name: "Illustrator", tip: "" },
+          { name: "Photoshop", tip: "" },
+          { name: "InDesign", tip: "" },
           { name: "After Effects", tip: "Animation & special effects." },
           { name: "Premiere Pro", tip: "Editing." },
           { name: "Adobe XD", tip: "Helps." },
@@ -117,7 +118,7 @@ window.SITE = {
     contact: {
       kicker: { fr: "Contact", en: "Contact" },
       title: { fr: "Créons quelque chose **qui marque.**", en: "Let’s create something **memorable.**" },
-      lead: { fr: "Un projet, une collaboration, un poste ? Écrivez-moi, je réponds en français ou en anglais.", en: "A project, a collaboration, a role? Drop me a line. I reply in English or French." }
+      lead: { fr: "Un projet, une collaboration, un poste ? Écrivez-moi.", en: "A project, a collaboration, a role? Drop me a line." }
     }
   },
 
@@ -135,12 +136,12 @@ window.SITE = {
       link: ""
     },
     {
-      title: "AXION",
+      title: "QA Verse",
       tag: { fr: "Identité visuelle", en: "Visual identity" },
-      summary: { fr: "Identité pour une startup deep tech.", en: "Identity for a deep tech startup." },
+      summary: { fr: "Identité pour une plateforme de test.", en: "Identity for a testing Platform." },
       description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
-      role: { fr: "Logo et identité", en: "Logo and identity" },
-      year: "", image: "", video: "", link: ""
+      role: { fr: "Logo, identité, direction artistique & webdesign", en: "Logo, identity, artistic direction & webdesign" },
+      year: "2026", image: "", video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA&t=1s", link: "https://focus-corporation.com/qaverse/"
     },
     {
       title: "Control Energy",
