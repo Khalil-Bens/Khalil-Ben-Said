@@ -106,7 +106,7 @@ window.SITE = {
           { name: "HubSpot", tip: "Discovering it." },
           { name: { fr: "Guitare", en: "Guitar" }, tip: "More like annoying whoever is unfortunate enough to listen." },
           { name: { fr: "Peinture & dessin", en: "Painting & sketching" }, tip: "My passion since forever." },
-          { name: { fr: "Programmation", en: "Coding" }, tip: "I’m… trying…" },
+          { name: { fr: "coding", en: "Coding" }, tip: "I’m… trying…" },
           { name: { fr: "Psychologie & comportement humain", en: "Psychology & human behavior" }, tip: "I find it absolutely fascinating." },
           { name: { fr: "Narration visuelle", en: "Visual storytelling" }, tip: "Through shapes, colors, compositions…" },
           { name: { fr: "Techniques de survie", en: "Survival skills" }, tip: "In case of a zombie apocalypse." },
