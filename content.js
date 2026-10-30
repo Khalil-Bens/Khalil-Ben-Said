@@ -131,7 +131,7 @@ window.SITE = {
       description: { fr: "Branding, visual identity, touchopints, and website design", en: "Branding, identité visuelle, des différents supports de com. et une site web" },
       role: { fr: "Marketing, Branding, identité, web...", en: "Marketing, Branding, identity, web..." },
       year: "2026",
-      image: "Assets/Focus-Logo.jpg",                  // for example "assets/fdt.jpg"
+      image: "Assets/Logo Focus [PNG]_4.png",                  // for example "assets/fdt.jpg"
       video: "",                  // a YouTube link, or a file like "assets/fdt.mp4"
       link: ""
     },
