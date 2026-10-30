@@ -91,9 +91,9 @@ window.SITE = {
         { title: { fr: "Maîtrise pratique", en: "Hands-on" }, items: [
           { name: "Illustrator", tip: "" },
           { name: "Photoshop", tip: "" },
-          { name: "InDesign", tip: "" },
+          { name: "InDesign", tip: "InDesign" },
           { name: "After Effects", tip: "Animation & special effects." },
-          { name: "Premiere Pro", tip: "Editing." },
+          { name: "Premiere Pro", tip: "Video Editing." },
           { name: "Adobe XD", tip: "Helps." },
           { name: "Substance", tip: "3D modeler." }
         ] },
@@ -126,9 +126,9 @@ window.SITE = {
   projects: [
     {
       title: "FDT",
-      tag: { fr: "Identité visuelle", en: "Visual identity" },
-      summary: { fr: "Identité en lettres pour une entreprise de logiciels.", en: "Lettermark identity for a software company." },
-      description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
+      tag: { fr: "Branding & Web", en: "Branding & Web" },
+      summary: { fr: "Branding et webdesign for a new startup.", en: "Branding et webdesign d'une nouvelle startup." },
+      description: { fr: "Branding, visual identity, touchopints, and website design", en: "Branding, identité visuelle, des différents supports de com. et une site web" },
       role: { fr: "Logo et identité", en: "Logo and identity" },
       year: "2026",
       image: "assets/FDT logo Display-01.svg ",                  // for example "assets/fdt.jpg"
