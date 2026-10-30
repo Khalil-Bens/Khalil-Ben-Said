@@ -130,8 +130,8 @@ window.SITE = {
       summary: { fr: "Identité en lettres pour une entreprise de logiciels.", en: "Lettermark identity for a software company." },
       description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
       role: { fr: "Logo et identité", en: "Logo and identity" },
-      year: "",
-      image: "",                  // for example "assets/fdt.jpg"
+      year: "2026",
+      image: "assets/FDT logo Display-01.svg ",                  // for example "assets/fdt.jpg"
       video: "",                  // a YouTube link, or a file like "assets/fdt.mp4"
       link: ""
     },
@@ -141,12 +141,12 @@ window.SITE = {
       summary: { fr: "Identité pour une plateforme de test.", en: "Identity for a testing Platform." },
       description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
       role: { fr: "Logo, identité, direction artistique & webdesign", en: "Logo, identity, artistic direction & webdesign" },
-      year: "2026", image: "", video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA&t=1s", link: "https://focus-corporation.com/qaverse/"
+      year: "2025", image: "assets/QA_Verse_Logo-03.png", video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA&t=1s", link: "https://focus-corporation.com/qaverse/"
     },
     {
-      title: "Control Energy",
-      tag: { fr: "Web design", en: "Web design" },
-      summary: { fr: "Site B2B en français pour une entreprise d’efficacité énergétique.", en: "B2B website, in French, for an energy efficiency company." },
+      title: "Social Media",
+      tag: { fr: "Communication visuelle visuelle", en: "Visual Communication" },
+      summary: { fr: "Stratégie et création de contenus pour les réseaux sociaux, engagement communautaire, employer branding et B2B.", en: "Social media strategy, community engagement, employer branding, and B2B communications." },
       description: { fr: "[Ce que vous avez dirigé et ce que cela a changé pour le client.]", en: "[What you directed and what changed for the client.]" },
       role: { fr: "Direction artistique", en: "Art direction" },
       year: "", image: "", video: "", link: ""
