@@ -131,7 +131,7 @@ window.SITE = {
       description: { fr: "Branding, visual identity, touchopints, and website design", en: "Branding, identité visuelle, des différents supports de com. et une site web" },
       role: { fr: "Logo et identité", en: "Logo and identity" },
       year: "2026",
-      image: "Assets/FDT logo Display-01.svg ",                  // for example "assets/fdt.jpg"
+      image: "Assets/FDT logo Display-01.svg",                  // for example "assets/fdt.jpg"
       video: "",                  // a YouTube link, or a file like "assets/fdt.mp4"
       link: ""
     },
