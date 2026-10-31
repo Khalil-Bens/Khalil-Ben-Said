@@ -14,7 +14,7 @@
    - Pictures and videos go in the assets folder: image: "assets/my-picture.jpg"
    ========================================================================== */
 window.SITE = {
-  name: "Khalil Ben Saïd",
+  name: "M.Khalil Ben Saïd",
   role: { fr: "Direction artistique & design", en: "Art Direction & Design" },
   location: { fr: "Tunis", en: "Tunis" },
   logo: "Assets/K-Logo-01.png",                       // for example "assets/logo.svg". Empty = your first letter.
@@ -133,7 +133,7 @@ window.SITE = {
       year: "2026",
       image: "Assets/Logo Focus [PNG]_4.png",                  // for example "assets/fdt.jpg"
       video: "",                  // a YouTube link, or a file like "assets/fdt.mp4"
-      link: ""
+      link: "https://focus-corporation.com/"
     },
     {
       title: "FDT",
