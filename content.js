@@ -222,7 +222,7 @@ projects: [
     },
     role: { fr: "Direction artistique", en: "Art direction" },
     year: "2014-2026",
-    image: "Assets/Product Design.jpg",
+    image: "",
     video: "",
     link: "",
          blocks: [
@@ -237,9 +237,9 @@ projects: [
       {
         type: "bento",
         items: [
-          { src: "Assets/Asset 4.png", size: "wide" },
-          { src: "Assets/Logo Folio-01.jpg", size: "tall" },
-          { src: "Assets/Asset 9.png", size: "big" },
+          { src: "Assets/Others-01.png", size: "tall" },
+          { src: "Assets/IT INCEPTOR-01.png", size: "tall" },
+          { src: "Assets/Alia-01.png", size: "tall" },
           { src: "Assets/Asset 11.png" }
         ]
       }
