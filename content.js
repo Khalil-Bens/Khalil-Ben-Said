@@ -15,9 +15,9 @@
    ========================================================================== */
 window.SITE = {
   name: "Khalil Ben Saïd",
-  role: { fr: "Direction artistique & design", en: "Art Direction & Design" },
+  role: { fr: "Direction artistique, Branding, & design", en: "Art Direction, Branding & Design" },
   location: { fr: "Tunis", en: "Tunis" },
-  logo: "",                       // for example "assets/logo.svg". Empty = your first letter.
+  logo: "Assets/K-Logo-01.png",                       // for example "assets/logo.svg". Empty = your first letter.
   defaultLanguage: "en",          // "en" or "fr"
   languages: [ { code: "fr", label: "FR" }, { code: "en", label: "EN" } ],
 
@@ -26,7 +26,7 @@ window.SITE = {
     phone: "+21698784788",        // delete the text between the quotes to hide the phone button
     behance: "https://www.behance.net/khalilbensaid",
     linkedin: "https://www.linkedin.com/in/med-khalil-ben-sa%C3%AFd-20a07991/",
-    cv: { fr: "assets/Khalil-Ben-Said-CV_FR.pdf", en: "assets/Khalil-Ben-Said-CV_EN.pdf" },   // the CV button downloads the file matching the chosen language
+    cv: { fr: "Assets/Khalil-Ben-Said-CV_FR.pdf", en: "Assets/Khalil-Ben-Said-CV_EN.pdf" },   // the CV button downloads the file matching the chosen language
   },
 
   footer: "© 2026 Khalil Ben Saïd · Tunis",
@@ -108,7 +108,7 @@ window.SITE = {
           { name: { fr: "Programmation", en: "Coding" }, tip: "I’m… trying…" },
           { name: { fr: "Psychologie & comportement humain", en: "Psychology & human behavior" }, tip: "I find it absolutely fascinating." },
           { name: { fr: "Narration visuelle", en: "Visual storytelling" }, tip: "Through shapes, colors, compositions…" },
-          { name: { fr: "Techniques de survie", en: "Survival skills" }, tip: "In case of a zombie apocalypse." },
+          { name: { fr: "Techniques de survie", en: "Survival skills" }, tip: "In case of a zombie apocalypse or an AI Outbreak." },
           { name: { fr: "L’art d’apprendre", en: "The art of learning" }, tip: "I’m thirsty in this regard." }
         ], note: { fr: "…et tout ce que je pensais avoir déjà appris.", en: "…and everything I thought I had already learnt." } }
       ]
@@ -117,22 +117,36 @@ window.SITE = {
     contact: {
       kicker: { fr: "Contact", en: "Contact" },
       title: { fr: "Créons quelque chose **qui marque.**", en: "Let’s create something **memorable.**" },
-      lead: { fr: "Un projet, une collaboration, un poste ? Écrivez-moi, je réponds en français ou en anglais.", en: "A project, a collaboration, a role? Drop me a line. I reply in English or French." }
+      lead: { fr: "Un projet, une collaboration, un poste ? Écrivez-moi.", en: "A project, a collaboration, a role? Drop me a line." }
     }
   },
 
   /* PROJECTS. Replace the examples with your own. image / video / link are optional. */
   projects: [
     {
-      title: "FDT",
-      tag: { fr: "Identité visuelle", en: "Visual identity" },
-      summary: { fr: "Identité en lettres pour une entreprise de logiciels.", en: "Lettermark identity for a software company." },
+      title: "QA Verse",
+      tag: { fr: "Brand", en: "Brand" },
+      summary: { fr: "Branding, compagne sur les réseaux sociaux, SaaS vidéo, UI Design", en: "Brand identity, social media campaign, SaaS Video, UI Design." },
       description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
       role: { fr: "Logo et identité", en: "Logo and identity" },
-      year: "",
-      image: "",                  // for example "assets/fdt.jpg"
-      video: "",                  // a YouTube link, or a file like "assets/fdt.mp4"
-      link: ""
+      year: "2025",
+      image: "Assets/QA_Verse_Logo-03.png",                  // for example "assets/fdt.jpg"
+      video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",                  // a YouTube link, or a file like "assets/fdt.mp4"
+      link: "https://www.qaverse.ai/"
+      fit: "contain",
+      cover: "",
+      company: "Focus",
+      blocks: [
+        { type: "heading", text: { fr: "Le brief", en: "The brief" } },
+        { type: "text", text: { fr: "Le contexte et l’idée.", en: "The context and the idea." } },
+        { type: "bento", items: [
+          { src: "Assets/QAV_PTLD.jpg", size: "wide" }, { src: "Assets/QAV_SMPC.png" }, { src: "", size: "tall" },
+          { color: "#ff3d2e", text: { fr: "Slogan", en: "Tagline" }, size: "big" }
+        ] },
+        { type: "palette", colors: [ { hex: "#111111", name: "Black" }, { hex: "#ff3d2e", name: "Red" }, { hex: "#ffffff", name: "White" } ] },
+        { type: "link", url: "https://www.qaverse.ai/", label: { fr: "Voir le site", en: "Visit the website" } }
+      ]
+    },
     },
     {
       title: "AXION",
