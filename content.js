@@ -125,18 +125,19 @@ window.SITE = {
   projects: [
     {
       title: "QA Verse",
-      tag: { fr: "Brand", en: "Brand" },
+      tag: { fr: "Branding & Promotion", en: "Branding & Promotion" },
       summary: { fr: "Branding, compagne sur les réseaux sociaux, SaaS vidéo, UI Design", en: "Brand identity, social media campaign, SaaS Video, UI Design." },
-      description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
-      role: { fr: "Logo et identité", en: "Logo and identity" },
+      description: { fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, Teasing  Compagne réseaux sociaux ", en: "Creating the visual identity & Brand, Designing the platform, SaaS video creation, Teasing and Social Media Campaign" },
+      role: { fr: "Branding & identité, Promotion", en: "randing & identity, Promotion" },
       year: "2025",
       image: "Assets/QA_Verse_Logo-03.png",                  // for example "assets/fdt.jpg"
       video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",                  // a YouTube link, or a file like "assets/fdt.mp4"
       link: "https://www.qaverse.ai/",
       fit: "contain",
-      cover: "",
+      cover: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
       company: "Focus",
       blocks: [
+        { type: "video", src: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
         { type: "heading", text: { fr: "Le brief", en: "The brief" } },
         { type: "text", text: { fr: "Le contexte et l’idée.", en: "The context and the idea." } },
         { type: "bento", items: [
@@ -153,7 +154,7 @@ window.SITE = {
       tag: { fr: "Identité visuelle", en: "Visual identity" },
       summary: { fr: "Identité pour une startup deep tech.", en: "Identity for a deep tech startup." },
       description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
-      role: { fr: "Logo et identité", en: "Logo and identity" },
+      role: { fr: "Branding & identité, Promotion", en: "Branding & identity, Promotion" },
       year: "", image: "", video: "", link: ""
     },
     {
