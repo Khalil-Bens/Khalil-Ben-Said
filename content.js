@@ -150,12 +150,12 @@ window.SITE = {
     },
 
     {
-      title: "AXION",
+      title: "LogoFolio",
       tag: { fr: "Identité visuelle", en: "Visual identity" },
       summary: { fr: "Identité pour une startup deep tech.", en: "Identity for a deep tech startup." },
-      description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
-      role: { fr: "Branding & identité, Promotion", en: "Branding & identity, Promotion" },
-      year: "", image: "", video: "", link: ""
+      description: { fr: "Identités visuelles", en: "VisualIdentities" },
+      role: { fr: "Branding & identité", en: "Branding & identity" },
+      year: "2013-2026", image: "Assets/LogoFolio cover-01.jpg", video: "", link: ""
     },
     {
       title: "Control Energy",
