@@ -137,7 +137,8 @@ window.SITE = {
       cover: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
       company: "Focus",
       blocks: [
-        { type: "video", src: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
+         { type: "video", src: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
+         caption: { fr: "SaaS", en: "SaaS" } },
         { type: "heading", text: { fr: "Le brief", en: "The brief" } },
         { type: "text", text: { fr: "Le contexte et l’idée.", en: "The context and the idea." } },
         { type: "bento", items: [
