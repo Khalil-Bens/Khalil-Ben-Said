@@ -14,10 +14,10 @@
    - Pictures and videos go in the assets folder: image: "assets/my-picture.jpg"
    ========================================================================== */
 window.SITE = {
-  name: "M.Khalil Ben Saïd",
+  name: "Khalil Ben Saïd",
   role: { fr: "Direction artistique & design", en: "Art Direction & Design" },
   location: { fr: "Tunis", en: "Tunis" },
-  logo: "Assets/K-Logo-01.png",                       // for example "assets/logo.svg". Empty = your first letter.
+  logo: "",                       // for example "assets/logo.svg". Empty = your first letter.
   defaultLanguage: "en",          // "en" or "fr"
   languages: [ { code: "fr", label: "FR" }, { code: "en", label: "EN" } ],
 
@@ -26,7 +26,7 @@ window.SITE = {
     phone: "+21698784788",        // delete the text between the quotes to hide the phone button
     behance: "https://www.behance.net/khalilbensaid",
     linkedin: "https://www.linkedin.com/in/med-khalil-ben-sa%C3%AFd-20a07991/",
-    cv: "assets/cv-khalil-ben-said.pdf"
+    cv: { fr: "assets/Khalil-Ben-Said-CV_FR.pdf", en: "assets/Khalil-Ben-Said-CV_EN.pdf" },   // the CV button downloads the file matching the chosen language
   },
 
   footer: "© 2026 Khalil Ben Saïd · Tunis",
@@ -69,7 +69,6 @@ window.SITE = {
         { title: { fr: "Direction artistique", en: "Art direction" }, text: { fr: "Concepts, moodboards, univers visuels et cohérence de bout en bout.", en: "Concepts, moodboards, visual worlds and end-to-end consistency." } },
         { title: { fr: "Identité visuelle", en: "Visual identity" }, text: { fr: "Logos, chartes graphiques et déclinaisons print et digitales.", en: "Logos, brand guidelines, and print and digital adaptations." } },
         { title: { fr: "Web design", en: "Web design" }, text: { fr: "Maquettes UI, landing pages et sites responsive, du wireframe à l’écran.", en: "UI design, landing pages and responsive websites, from wireframe to screen." } },
-        { title: { fr: "Vidéos", en: "Vides" }, text: { fr: "Production vidéo, montage & animation graphique", en: "video production, editing & motion graphics" } },
         { title: { fr: "Éditorial & supports", en: "Editorial & collateral" }, text: { fr: "Brochures, présentations, infographies et contenus réseaux sociaux.", en: "Brochures, presentations, infographics and social media content." } },
         { title: { fr: "Illustration & photo", en: "Illustration & photography" }, text: { fr: "Illustration, digital painting et photographie pour enrichir chaque projet.", en: "Illustration, digital painting and photography to enrich each project." } },
         { title: { fr: "Marketing & performance", en: "Marketing & performance" }, text: { fr: "LinkedIn Ads, HubSpot, webinaires : le design au service de la conversion.", en: "LinkedIn Ads, HubSpot, webinars: design in service of conversion." } }
@@ -80,7 +79,7 @@ window.SITE = {
       kicker: { fr: "Projets", en: "Projects" },
       title: { fr: "Des univers visuels, **du concept à l’écran.**", en: "Visual worlds, **from concept to screen.**" },
       hint: { fr: "Faites glisser pour explorer.", en: "Drag to explore." },
-      behanceText: { fr: "Découvrir mes travaux artistiques →", en: "Discover my artwork →" }
+      behanceText: { fr: "Tout voir sur Behance →", en: "View everything on Behance →" }
     },
 
     skills: {
@@ -89,11 +88,11 @@ window.SITE = {
       lead: { fr: "Uniquement ce que je peux démontrer.", en: "Only what I can back up." },
       groups: [
         { title: { fr: "Maîtrise pratique", en: "Hands-on" }, items: [
-          { name: "Illustrator", tip: "" },
-          { name: "Photoshop", tip: "" },
-          { name: "InDesign", tip: "InDesign" },
+          { name: "AI", tip: "" },
+          { name: "PS", tip: "" },
+          { name: "ID", tip: "" },
           { name: "After Effects", tip: "Animation & special effects." },
-          { name: "Premiere Pro", tip: "Video Editing." },
+          { name: "Premiere Pro", tip: "Editing." },
           { name: "Adobe XD", tip: "Helps." },
           { name: "Substance", tip: "3D modeler." }
         ] },
@@ -106,7 +105,7 @@ window.SITE = {
           { name: "HubSpot", tip: "Discovering it." },
           { name: { fr: "Guitare", en: "Guitar" }, tip: "More like annoying whoever is unfortunate enough to listen." },
           { name: { fr: "Peinture & dessin", en: "Painting & sketching" }, tip: "My passion since forever." },
-          { name: { fr: "coding", en: "Coding" }, tip: "I’m… trying…" },
+          { name: { fr: "Programmation", en: "Coding" }, tip: "I’m… trying…" },
           { name: { fr: "Psychologie & comportement humain", en: "Psychology & human behavior" }, tip: "I find it absolutely fascinating." },
           { name: { fr: "Narration visuelle", en: "Visual storytelling" }, tip: "Through shapes, colors, compositions…" },
           { name: { fr: "Techniques de survie", en: "Survival skills" }, tip: "In case of a zombie apocalypse." },
@@ -118,46 +117,35 @@ window.SITE = {
     contact: {
       kicker: { fr: "Contact", en: "Contact" },
       title: { fr: "Créons quelque chose **qui marque.**", en: "Let’s create something **memorable.**" },
-      lead: { fr: "Un projet, une collaboration, un poste ? Écrivez-moi.", en: "A project, a collaboration, a role? Drop me a line." }
+      lead: { fr: "Un projet, une collaboration, un poste ? Écrivez-moi, je réponds en français ou en anglais.", en: "A project, a collaboration, a role? Drop me a line. I reply in English or French." }
     }
   },
 
   /* PROJECTS. Replace the examples with your own. image / video / link are optional. */
   projects: [
-     {
-      title: "Focus",
-      tag: { fr: "Branding, identity & Web", en: "Branding & Web" },
-      summary: { fr: "Tout ce qui contribue à la visibilité et au rayonnement d’une marque : contenus pour les réseaux sociaux, design web et interfaces utilisateur, montage vidéo, motion design, supports print, événements, et bien plus..", en: "Everything related to brand visibility, social media creatives, ui & web design, video editing, animations, prints, events and much more." },
-      description: { fr: "Branding, visual identity, touchopints, and website design", en: "Branding, identité visuelle, des différents supports de com. et une site web" },
-      role: { fr: "Marketing, Branding, identité, web...", en: "Marketing, Branding, identity, web..." },
-      year: "2026",
-      image: "Assets/Logo Focus [PNG]_4.png",                  // for example "assets/fdt.jpg"
-      video: "",                  // a YouTube link, or a file like "assets/fdt.mp4"
-      link: "https://focus-corporation.com/"
-    },
     {
       title: "FDT",
-      tag: { fr: "Branding & Web", en: "Branding & Web" },
-      summary: { fr: "Branding et webdesign for a new startup.", en: "Branding et webdesign d'une nouvelle startup." },
-      description: { fr: "Branding, visual identity, touchopints, and website design", en: "Branding, identité visuelle, des différents supports de com. et une site web" },
+      tag: { fr: "Identité visuelle", en: "Visual identity" },
+      summary: { fr: "Identité en lettres pour une entreprise de logiciels.", en: "Lettermark identity for a software company." },
+      description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
       role: { fr: "Logo et identité", en: "Logo and identity" },
-      year: "2026",
-      image: "Assets/FDT logo Display-01.svg",                  // for example "assets/fdt.jpg"
+      year: "",
+      image: "",                  // for example "assets/fdt.jpg"
       video: "",                  // a YouTube link, or a file like "assets/fdt.mp4"
       link: ""
     },
     {
-      title: "QA Verse",
+      title: "AXION",
       tag: { fr: "Identité visuelle", en: "Visual identity" },
-      summary: { fr: "Identité pour une plateforme de test.", en: "Identity for a testing Platform." },
+      summary: { fr: "Identité pour une startup deep tech.", en: "Identity for a deep tech startup." },
       description: { fr: "[Le brief, votre démarche et le résultat.]", en: "[The brief, your process and the result.]" },
-      role: { fr: "Logo, identité, direction artistique & webdesign", en: "Logo, identity, artistic direction & webdesign" },
-      year: "2025", image: "Assets/QA_Verse_Logo-03.png", video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA&t=1s", link: "https://focus-corporation.com/qaverse/"
+      role: { fr: "Logo et identité", en: "Logo and identity" },
+      year: "", image: "", video: "", link: ""
     },
     {
-      title: "Social Media",
-      tag: { fr: "Communication visuelle visuelle", en: "Visual Communication" },
-      summary: { fr: "Stratégie et création de contenus pour les réseaux sociaux, engagement communautaire, employer branding et B2B.", en: "Social media strategy, community engagement, employer branding, and B2B communications." },
+      title: "Control Energy",
+      tag: { fr: "Web design", en: "Web design" },
+      summary: { fr: "Site B2B en français pour une entreprise d’efficacité énergétique.", en: "B2B website, in French, for an energy efficiency company." },
       description: { fr: "[Ce que vous avez dirigé et ce que cela a changé pour le client.]", en: "[What you directed and what changed for the client.]" },
       role: { fr: "Direction artistique", en: "Art direction" },
       year: "", image: "", video: "", link: ""
