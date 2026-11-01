@@ -128,13 +128,13 @@ window.SITE = {
       tag: { fr: "Branding & Promotion", en: "Branding & Promotion" },
       summary: { fr: "Branding, compagne sur les réseaux sociaux, SaaS vidéo, UI Design", en: "Brand identity, social media campaign, SaaS Video, UI Design." },
       description: { fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, Teasing  Compagne réseaux sociaux ", en: "Creating the visual identity & Brand, Designing the platform, SaaS video creation, Teasing and Social Media Campaign" },
-      role: { fr: "Branding & identité, Promotion", en: "randing & identity, Promotion" },
+      role: { fr: "Branding & identité, Promotion", en: "Branding & identity, Promotion" },
       year: "2025",
       image: "Assets/QA_Verse_Logo-03.png",                  // for example "assets/fdt.jpg"
       video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",                  // a YouTube link, or a file like "assets/fdt.mp4"
       link: "https://www.qaverse.ai/",
       fit: "contain",
-      cover: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
+      cover: "Assets/QA_Verse_Logo-03.png",
       company: "Focus",
       blocks: [
          { type: "video", src: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
