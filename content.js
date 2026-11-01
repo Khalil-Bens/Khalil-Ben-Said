@@ -157,11 +157,11 @@ window.SITE = {
       role: { fr: "Design & Direction Artistique", en: "Design & Art Direction" },
       year: "2013-2026", image: "Assets/LogoFolio cover-01.jpg", video: "", link: "",
        blocks: [
-        { type: "heading", text: { fr: "Le brief", en: "The brief" } },
-        { type: "text", text: { fr: "Le contexte et l’idée.", en: "The context and the idea." } },
+        { type: "heading", text: { fr: "Logos & identités", en: "Logos & Identities" } },
+        { type: "text", text: { fr: "Création et conception de logos et identités visuelles pour différents projets", en: "Creation and design of logos and visual identities for different projects" } },
         { type: "bento", items: [
-          { src: "Assets/Asset 4.png", size: "wide" }, { src: "Assets/Asset 11.png" }, { src: "Assets/Logo Folio-01.jpg", size: "tall" },
-          { src: "Assets/Asset 9.png", size: "big"  }
+          { src: "Assets/Asset 4.png", size: "wide" }, { src: "Assets/Logo Folio-01.jpg", size: "tall" }, 
+          { src: "Assets/Asset 9.png", size: "big"  }, { src: "Assets/Asset 11.png" }
         ] },
       ]
     },
@@ -172,7 +172,24 @@ window.SITE = {
       description: { fr: "Conception & réalisation des packagings, identités et univers graphique", en: "Designing packagings, identities & graphic univers" },
       role: { fr: "Direction artistique", en: "Art direction" },
       year: "2014-2026", image: "Assets/Product Design.jpg", video: "", link: ""
-    }
+    },
+      {
+      title: "Packagings",
+      tag: { fr: "Design Produit", en: "Product Design" },
+      summary: { fr: "Conception et Design Packaging.", en: "Packaging Design." },
+      image: "Assets/Product Design.jpg",
+      fit: "contain",
+      cover: "",
+      company: "Diverse",
+      role: { fr: "Direction artistique", en: "Art direction" },
+      year: "2014-2026",
+      blocks: [
+        { type: "heading", text: { fr: "Le brief", en: "The brief" } },
+        { type: "text", text: { fr: "Conception & réalisation des packagings, identités et univers graphique", en: "Designing packagings, identities & graphic univers" } },
+        { type: "bento", items: [
+          { src: "Assets/Alia-01.png", size: "tall" }, { src: "Assets/P-Asset-1.png" }, { src: "D-Asset-1.png", size: "wide" }
+        ]
+    },
   ],
 
   /* Small interface texts (menu, buttons). You rarely need to change these. */
