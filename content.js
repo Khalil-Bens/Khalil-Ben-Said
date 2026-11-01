@@ -245,8 +245,6 @@ projects: [
       }
     ]
   },
-  },
-
   {
     title: "Packagings",
     tag: { fr: "Design Produit", en: "Product Design" },
