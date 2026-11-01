@@ -124,7 +124,7 @@ window.SITE = {
   /* PROJECTS. Replace the examples with your own. image / video / link are optional. */
   projects: [
     {
-      title: "QA Verse",
+      title: "QAVerse",
       tag: { fr: "Branding & Promotion", en: "Branding & Promotion" },
       summary: { fr: "Branding, compagne sur les réseaux sociaux, SaaS vidéo, UI Design", en: "Brand identity, social media campaign, SaaS Video, UI Design." },
       description: { fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, Teasing  Compagne réseaux sociaux ", en: "Creating the visual identity & Brand, Designing the platform, SaaS video creation, Teasing and Social Media Campaign" },
@@ -138,14 +138,13 @@ window.SITE = {
       company: "Focus",
       blocks: [
          { type: "video", src: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
-         caption: { fr: "SaaS", en: "SaaS" } },
+         caption: { fr: "Saas, QAVerse", en: "SaaS, QAVerse" } },
         { type: "heading", text: { fr: "Le brief", en: "The brief" } },
         { type: "text", text: { fr: "Le contexte et l’idée.", en: "The context and the idea." } },
         { type: "bento", items: [
           { src: "Assets/QAV_PTLD.jpg", size: "wide" }, { src: "Assets/QAV_SMPC.png" }, { src: "", size: "tall" },
           { color: "#ff3d2e", text: { fr: "Slogan", en: "Tagline" }, size: "big" }
         ] },
-        { type: "palette", colors: [ { hex: "#111111", name: "Black" }, { hex: "#ff3d2e", name: "Red" }, { hex: "#ffffff", name: "White" } ] },
         { type: "link", url: "https://www.qaverse.ai/", label: { fr: "Voir le site", en: "Visit the website" } }
       ]
     },
