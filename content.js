@@ -142,8 +142,8 @@ window.SITE = {
         { type: "heading", text: { fr: "Le brief", en: "The brief" } },
         { type: "text", text: { fr: "Le contexte et l’idée.", en: "The context and the idea." } },
         { type: "bento", items: [
-          { src: "Assets/QAV_PTLD.jpg", size: "wide" }, { src: "Assets/QAV_SMPC.png" }, { src: "", size: "tall" },
-          { color: "#ff3d2e", text: { fr: "Slogan", en: "Tagline" }, size: "big" }
+          { src: "Assets/QAV_PTLD.jpg", size: "tall" }, { src: "Assets/QAV_SMPC.png" }, { src: "", size: "tall" },
+          { color: "#ff3d2e", text: { fr: "Plateforme d'Automatisation QA Propulsée par l'IAn", en: "AI-Powered QA Automation Platform" }, size: "small" }
         ] },
         { type: "link", url: "https://www.qaverse.ai/", label: { fr: "Voir le site", en: "Visit the website" } }
       ]
