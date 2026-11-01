@@ -152,18 +152,26 @@ window.SITE = {
     {
       title: "LogoFolio",
       tag: { fr: "Identité visuelle", en: "Visual identity" },
-      summary: { fr: "Identité pour une startup deep tech.", en: "Identity for a deep tech startup." },
-      description: { fr: "Identités visuelles", en: "VisualIdentities" },
-      role: { fr: "Branding & identité", en: "Branding & identity" },
-      year: "2013-2026", image: "Assets/LogoFolio cover-01.jpg", video: "", link: ""
+      summary: { fr: "Logos & identités", en: "Logos & Identities" },
+      description: { fr: "Identités visuelles", en: "Visual Identities" },
+      role: { fr: "Design & Direction Artistique", en: "Design & Art Direction" },
+      year: "2013-2026", image: "Assets/LogoFolio cover-01.jpg", video: "", link: "",
+       blocks: [
+        { type: "heading", text: { fr: "Le brief", en: "The brief" } },
+        { type: "text", text: { fr: "Le contexte et l’idée.", en: "The context and the idea." } },
+        { type: "bento", items: [
+          { src: "Assets/Asset 4.png", size: "wide" }, { src: "Assets/Asset 11.png" }, { src: "Assets/Logo Folio-01.jpg", size: "tall" },
+          { src: "Assets/Asset 9.png", size: "big"  }
+        ] },
+      ]
     },
     {
-      title: "Control Energy",
-      tag: { fr: "Web design", en: "Web design" },
-      summary: { fr: "Site B2B en français pour une entreprise d’efficacité énergétique.", en: "B2B website, in French, for an energy efficiency company." },
-      description: { fr: "[Ce que vous avez dirigé et ce que cela a changé pour le client.]", en: "[What you directed and what changed for the client.]" },
+      title: "Packaging",
+      tag: { fr: "Design Produit", en: "Product Design" },
+      summary: { fr: "Conception et Design Packaging.", en: "Packaging Design" },
+      description: { fr: "Conception & réalisation des packagings, identités et univers graphique", en: "Designing packagings, identities & graphic univers" },
       role: { fr: "Direction artistique", en: "Art direction" },
-      year: "", image: "", video: "", link: ""
+      year: "2014-2026", image: "Assets/Product Design.jpg", video: "", link: ""
     }
   ],
 
