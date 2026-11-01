@@ -122,75 +122,142 @@ window.SITE = {
   },
 
   /* PROJECTS. Replace the examples with your own. image / video / link are optional. */
-  projects: [
-    {
-      title: "QAVerse",
-      tag: { fr: "Branding & Promotion", en: "Branding & Promotion" },
-      summary: { fr: "Branding, compagne sur les réseaux sociaux, SaaS vidéo, UI Design", en: "Brand identity, social media campaign, SaaS Video, UI Design." },
-      description: { fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, Teasing  Compagne réseaux sociaux ", en: "Creating the visual identity & Brand, Designing the platform, SaaS video creation, Teasing and Social Media Campaign" },
-      role: { fr: "Branding & identité, Promotion", en: "Branding & identity, Promotion" },
-      year: "2025",
-      image: "Assets/QA_Verse_Logo-03.png",                  // for example "assets/fdt.jpg"
-      video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",                  // a YouTube link, or a file like "assets/fdt.mp4"
-      link: "https://www.qaverse.ai/",
-      fit: "contain",
-      cover: "Assets/QA_Verse_Logo-03.png",
-      company: "Focus",
-      blocks: [
-         { type: "video", src: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
-         caption: { fr: "Saas, QAVerse", en: "SaaS, QAVerse" } },
-        { type: "heading", text: { fr: "La portée", en: "The Scope" } },
-        { type: "text", text: { fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, Teasing  Compagne réseaux sociaux", en: "Creating the visual identity & Brand, Designing the platform, SaaS video creation, Teasing and Social Media Campaign" } },
-        { type: "bento", items: [
-          { src: "Assets/QAV_PTLD.jpg", size: "tall" }, { src: "Assets/QAV_SMPC.png" }, { src: "", size: "tall" },
-          { color: "#6CCFF6", text: { fr: "Plateforme d'Automatisation QA Propulsée par l'IAn", en: "AI-Powered QA Automation Platform" }, size: "small" }
-        ] },
-        { type: "link", url: "https://www.qaverse.ai/", label: { fr: "Voir le site", en: "Visit the website" } }
-      ]
+  
+projects: [
+  {
+    title: "QAVerse",
+    tag: { fr: "Branding & Promotion", en: "Branding & Promotion" },
+    summary: {
+      fr: "Branding, campagne sur les réseaux sociaux, SaaS vidéo, UI Design",
+      en: "Brand identity, social media campaign, SaaS Video, UI Design."
     },
-
-    {
-      title: "LogoFolio",
-      tag: { fr: "Identité visuelle", en: "Visual identity" },
-      summary: { fr: "Logos & identités", en: "Logos & Identities" },
-      description: { fr: "Identités visuelles", en: "Visual Identities" },
-      role: { fr: "Design & Direction Artistique", en: "Design & Art Direction" },
-      year: "2013-2026", image: "Assets/LogoFolio cover-01.jpg", video: "", link: "",
-       blocks: [
-        { type: "heading", text: { fr: "Logos & identités", en: "Logos & Identities" } },
-        { type: "text", text: { fr: "Création et conception de logos et identités visuelles pour différents projets", en: "Creation and design of logos and visual identities for different projects" } },
-        { type: "bento", items: [
-          { src: "Assets/Asset 4.png", size: "wide" }, { src: "Assets/Logo Folio-01.jpg", size: "tall" }, 
-          { src: "Assets/Asset 9.png", size: "big"  }, { src: "Assets/Asset 11.png" }
-        ] },
-      ]
+    description: {
+      fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, teasing et campagne réseaux sociaux",
+      en: "Creating the visual identity & brand, designing the platform, SaaS video creation, teasing and social media campaign"
     },
-    {
-      title: "Packaging",
-      tag: { fr: "Design Produit", en: "Product Design" },
-      summary: { fr: "Conception et Design Packaging.", en: "Packaging Design" },
-      description: { fr: "Conception & réalisation des packagings, identités et univers graphique", en: "Designing packagings, identities & graphic univers" },
-      role: { fr: "Direction artistique", en: "Art direction" },
-      year: "2014-2026", image: "Assets/Product Design.jpg", video: "", link: ""
-    },
+    role: { fr: "Branding & identité, Promotion", en: "Branding & identity, Promotion" },
+    year: "2025",
+    image: "Assets/QA_Verse_Logo-03.png",
+    video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
+    link: "https://www.qaverse.ai/",
+    fit: "contain",
+    cover: "Assets/QA_Verse_Logo-03.png",
+    company: "Focus",
+    blocks: [
       {
-      title: "Packagings",
-      tag: { fr: "Design Produit", en: "Product Design" },
-      summary: { fr: "Conception et Design Packaging.", en: "Packaging Design." },
-      image: "Assets/Product Design.jpg",
-      fit: "contain",
-      cover: "",
-      company: "Diverse",
-      role: { fr: "Direction artistique", en: "Art direction" },
-      year: "2014-2026",
-      blocks: [
-        { type: "heading", text: { fr: "Le brief", en: "The brief" } },
-        { type: "text", text: { fr: "Conception & réalisation des packagings, identités et univers graphique", en: "Designing packagings, identities & graphic univers" } },
-        { type: "bento", items: [
-          { src: "Assets/Alia-01.png", size: "tall" }, { src: "Assets/P-Asset-1.png" }, { src: "D-Asset-1.png", size: "wide" }
+        type: "video",
+        src: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
+        caption: { fr: "SaaS, QAVerse", en: "SaaS, QAVerse" }
+      },
+      { type: "heading", text: { fr: "La portée", en: "The Scope" } },
+      {
+        type: "text",
+        text: {
+          fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, teasing et campagne réseaux sociaux",
+          en: "Creating the visual identity & brand, designing the platform, SaaS video creation, teasing and social media campaign"
+        }
+      },
+      {
+        type: "bento",
+        items: [
+          { src: "Assets/QAV_PTLD.jpg", size: "tall" },
+          { src: "Assets/QAV_SMPC.png" },
+          { src: "", size: "tall" },
+          {
+            color: "#6CCFF6",
+            text: {
+              fr: "Plateforme d'Automatisation QA Propulsée par l'IAn",
+              en: "AI-Powered QA Automation Platform"
+            },
+            size: "small"
+          }
         ]
+      },
+      {
+        type: "link",
+        url: "https://www.qaverse.ai/",
+        label: { fr: "Voir le site", en: "Visit the website" }
+      }
+    ]
+  },
+
+  {
+    title: "LogoFolio",
+    tag: { fr: "Identité visuelle", en: "Visual identity" },
+    summary: { fr: "Logos & identités", en: "Logos & Identities" },
+    description: { fr: "Identités visuelles", en: "Visual Identities" },
+    role: { fr: "Design & Direction Artistique", en: "Design & Art Direction" },
+    year: "2013-2026",
+    image: "Assets/LogoFolio cover-01.jpg",
+    video: "",
+    link: "",
+    blocks: [
+      { type: "heading", text: { fr: "Logos & identités", en: "Logos & Identities" } },
+      {
+        type: "text",
+        text: {
+          fr: "Création et conception de logos et identités visuelles pour différents projets",
+          en: "Creation and design of logos and visual identities for different projects"
+        }
+      },
+      {
+        type: "bento",
+        items: [
+          { src: "Assets/Asset 4.png", size: "wide" },
+          { src: "Assets/Logo Folio-01.jpg", size: "tall" },
+          { src: "Assets/Asset 9.png", size: "big" },
+          { src: "Assets/Asset 11.png" }
+        ]
+      }
+    ]
+  },
+
+  {
+    title: "Packaging",
+    tag: { fr: "Design Produit", en: "Product Design" },
+    summary: { fr: "Conception et Design Packaging.", en: "Packaging Design" },
+    description: {
+      fr: "Conception & réalisation des packagings, identités et univers graphique",
+      en: "Designing packagings, identities & graphic universe"
     },
-  ],
+    role: { fr: "Direction artistique", en: "Art direction" },
+    year: "2014-2026",
+    image: "Assets/Product Design.jpg",
+    video: "",
+    link: ""
+  },
+
+  {
+    title: "Packagings",
+    tag: { fr: "Design Produit", en: "Product Design" },
+    summary: { fr: "Conception et Design Packaging.", en: "Packaging Design." },
+    image: "Assets/Product Design.jpg",
+    fit: "contain",
+    cover: "",
+    company: "Diverse",
+    role: { fr: "Direction artistique", en: "Art direction" },
+    year: "2014-2026",
+    blocks: [
+      { type: "heading", text: { fr: "Le brief", en: "The brief" } },
+      {
+        type: "text",
+        text: {
+          fr: "Conception & réalisation des packagings, identités et univers graphique",
+          en: "Designing packagings, identities & graphic universe"
+        }
+      },
+      {
+        type: "bento",
+        items: [
+          { src: "Assets/Alia-01.png", size: "tall" },
+          { src: "Assets/P-Asset-1.png" },
+          { src: "Assets/D-Asset-1.png", size: "wide" }
+        ]
+      }
+    ]
+  }
+],
+
 
   /* Small interface texts (menu, buttons). You rarely need to change these. */
   ui: {
