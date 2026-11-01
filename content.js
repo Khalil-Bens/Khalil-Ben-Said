@@ -14,7 +14,7 @@
    - Pictures and videos go in the assets folder: image: "assets/my-picture.jpg"
    ========================================================================== */
 window.SITE = {
-  name: "Khalil Ben Saïd",
+  name: "M.Khalil Ben Saïd",
   role: { fr: "Direction artistique, Branding, & design", en: "Art Direction, Branding & Design" },
   location: { fr: "Tunis", en: "Tunis" },
   logo: "Assets/K-Logo-01.png",                       // for example "assets/logo.svg". Empty = your first letter.
