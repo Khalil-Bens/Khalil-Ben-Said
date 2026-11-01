@@ -139,11 +139,11 @@ window.SITE = {
       blocks: [
          { type: "video", src: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
          caption: { fr: "Saas, QAVerse", en: "SaaS, QAVerse" } },
-        { type: "heading", text: { fr: "Le brief", en: "The brief" } },
-        { type: "text", text: { fr: "Le contexte et l’idée.", en: "The context and the idea." } },
+        { type: "heading", text: { fr: "La portée", en: "The Scope" } },
+        { type: "text", text: { fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, Teasing  Compagne réseaux sociaux", en: "Creating the visual identity & Brand, Designing the platform, SaaS video creation, Teasing and Social Media Campaign" } },
         { type: "bento", items: [
           { src: "Assets/QAV_PTLD.jpg", size: "tall" }, { src: "Assets/QAV_SMPC.png" }, { src: "", size: "tall" },
-          { color: "#ff3d2e", text: { fr: "Plateforme d'Automatisation QA Propulsée par l'IAn", en: "AI-Powered QA Automation Platform" }, size: "small" }
+          { color: "#6CCFF6", text: { fr: "Plateforme d'Automatisation QA Propulsée par l'IAn", en: "AI-Powered QA Automation Platform" }, size: "small" }
         ] },
         { type: "link", url: "https://www.qaverse.ai/", label: { fr: "Voir le site", en: "Visit the website" } }
       ]
