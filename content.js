@@ -213,18 +213,38 @@ projects: [
   },
 
   {
-    title: "Packaging",
-    tag: { fr: "Design Produit", en: "Product Design" },
-    summary: { fr: "Conception et Design Packaging.", en: "Packaging Design" },
+    title: "Branding",
+    tag: { fr: "Branding - Art Direction", en: "Branding - Art Direction" },
+    summary: { fr: "Conception et Design d'identités visuelles et images de marques.", en: "Design and conception of visual identities and brand images" },
     description: {
-      fr: "Conception & réalisation des packagings, identités et univers graphique",
-      en: "Designing packagings, identities & graphic universe"
+      fr: "Conception et Design d'identités visuelles et images de marques",
+      en: "Design and conception of visual identities and brand images"
     },
     role: { fr: "Direction artistique", en: "Art direction" },
     year: "2014-2026",
     image: "Assets/Product Design.jpg",
     video: "",
-    link: ""
+    link: "",
+         blocks: [
+      { type: "heading", text: { fr: "Logos & identités", en: "Logos & Identities" } },
+      {
+        type: "text",
+        text: {
+          fr: "Création et conception de logos et identités visuelles pour différents projets",
+          en: "Creation and design of logos and visual identities for different projects"
+        }
+      },
+      {
+        type: "bento",
+        items: [
+          { src: "Assets/Asset 4.png", size: "wide" },
+          { src: "Assets/Logo Folio-01.jpg", size: "tall" },
+          { src: "Assets/Asset 9.png", size: "big" },
+          { src: "Assets/Asset 11.png" }
+        ]
+      }
+    ]
+  },
   },
 
   {
