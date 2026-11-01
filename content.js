@@ -132,7 +132,7 @@ window.SITE = {
       year: "2025",
       image: "Assets/QA_Verse_Logo-03.png",                  // for example "assets/fdt.jpg"
       video: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",                  // a YouTube link, or a file like "assets/fdt.mp4"
-      link: "https://www.qaverse.ai/"
+      link: "https://www.qaverse.ai/",
       fit: "contain",
       cover: "",
       company: "Focus",
@@ -147,7 +147,7 @@ window.SITE = {
         { type: "link", url: "https://www.qaverse.ai/", label: { fr: "Voir le site", en: "Visit the website" } }
       ]
     },
-    },
+
     {
       title: "AXION",
       tag: { fr: "Identité visuelle", en: "Visual identity" },
