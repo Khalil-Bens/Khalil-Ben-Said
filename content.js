@@ -198,7 +198,7 @@ projects: [
     video: "",
     link: "https://focus-corporation.com/",
     fit: "contain",
-    cover: "Assets/Logo Focus [PNG]_4.png",
+    cover: "Assets/Fcov-03.png.png",
     company: "Focus Corporation",
     blocks: [
       {
@@ -225,6 +225,7 @@ projects: [
           { src: "Assets/F0SM-01.png", size: "tall" },
           { src: "Assets/f.jpg", size: "tall" },
           { src: "Assets/WBFN.png", size: "wide" },
+           { src: "Assets/Biodiversité 2.1-01.png", size: "big" },
           { src: "Assets/F0P-01-02.png", size: "tall" },
           { src: "Assets/Webinaire-01.png", size: "big" },
           {
@@ -286,7 +287,7 @@ projects: [
     },
     role: { fr: "Direction artistique", en: "Art direction" },
     year: "2014-2026",
-    image: "",
+    image: "Assets/8105623.jpg",
     video: "",
     link: "",
          blocks: [
