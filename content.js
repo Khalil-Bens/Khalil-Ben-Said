@@ -203,29 +203,35 @@ projects: [
     blocks: [
       {
         type: "video",
-        src: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
-        caption: { fr: "SaaS, QAVerse", en: "SaaS, QAVerse" }
+        src: "https://www.youtube.com/watch?v=d4sZj3o4baA",
+        caption: { fr: "Service, Focus", en: "Service, Focus" }
+      },
+       {
+        type: "video",
+        src: "https://www.youtube.com/watch?v=HUv7V3iFzE0",
+        caption: { fr: "RSE, Reforestation", en: "CSR, Reforestation" }
       },
       { type: "heading", text: { fr: "La portée", en: "The Scope" } },
       {
         type: "text",
         text: {
-          fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, teasing et campagne réseaux sociaux",
-          en: "Creating the visual identity & brand, designing the platform, SaaS video creation, teasing and social media campaign"
+          fr: "Conception et supervision de l’univers visuel de la marque, avec la création et le pilotage de tous les supports visuels, audiovisuels et digitaux.",
+          en: "Art Direction and stewardship of the brand’s visual identity, encompassing the creation and management of all visual, audiovisual, web, and digital assets."
         }
       },
       {
         type: "bento",
         items: [
           { src: "Assets/F0SM-01.png", size: "tall" },
-          { src: "Assets/f.jpg" },
-          { src: "Assets/F0SM-01.png", size: "tall" },
-          { src: "Assets/F0P-01-02.pngg", size: "tall" },
+          { src: "Assets/f.jpg", size: "tall" },
+          { src: "Assets/WBFN.png", size: "wide" },
+          { src: "Assets/F0P-01-02.png", size: "tall" },
+          { src: "Assets/Webinaire-01.png", size: "big" },
           {
-            color: "#6CCFF6",
+            color: "#004680",
             text: {
-              fr: "Plateforme d'Automatisation QA Propulsée par l'IAn",
-              en: "AI-Powered QA Automation Platform"
+              fr: "Driven By Commitment",
+              en: "Driven By Commitment"
             },
             size: "small"
           }
@@ -303,6 +309,40 @@ projects: [
       }
     ]
   },
+
+   {
+    title: "FDT",
+    tag: { fr: "Branding - Art Direction - UI/UX Design", en: "Branding - Art Direction - UI/UX Design" },
+    summary: { fr: "Conception et Design de l'identité visuelle et image de marques.", en: "Design and conception of the visual identity and brand images" },
+    description: {
+      fr: "Création et développement de l’identité visuelle de la marque, avec la conception des déclinaisons graphiques, supports de communication, contenus audiovisuels et expériences web.",
+      en: "Creation and development of the brand’s visual identity, including graphic adaptations, communication materials, video content, and website design."
+    },
+    role: { fr: "Direction artistique", en: "Art direction" },
+    year: "2026",
+    image: "Assets/FDTID-01.png",
+    video: "",
+    link: "",
+         blocks: [
+      { type: "heading", text: { fr: "Branding & Web", en: "Branding & Web" } },
+      {
+        type: "text",
+        text: {
+          fr: "Création et développement de l’identité visuelle de la marque, avec la conception des déclinaisons graphiques, supports de communication, contenus audiovisuels et expériences web.",
+          en: "Creation and development of the brand’s visual identity, including graphic adaptations, communication materials, video content, and website design."
+        }
+      },
+      {
+        type: "bento",
+        items: [
+          { src: "Assets/FDT website-01.jpg", size: "tall" },
+          { src: "Assets/FDT website-02.jpg", size: "wide" },
+          { src: "Assets/FDT website-03.jpg", size: "big" }
+        ]
+      }
+    ]
+  },
+   
   {
     title: "Packagings",
     tag: { fr: "Design Produit", en: "Product Design" },
