@@ -181,6 +181,64 @@ projects: [
     ]
   },
 
+    {
+    title: "FOCUS Corporation",
+    tag: { fr: "Identité de marque, Marketing, Direction Artistique, Web & UI Design, Videography", en: "Brand Identity, Marketing, Art Direction, Web & UI Design, Videography" },
+    summary: {
+      fr: "Branding, campagnes sur les réseaux sociaux, Création de Vidéos, UI/UX Design",
+      en: "Brand identity, social media campaign, SaaS Video, UI Design."
+    },
+    description: {
+      fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, teasing et campagne réseaux sociaux",
+      en: "Creating the visual identity & brand, designing the platform, SaaS video creation, teasing and social media campaign"
+    },
+    role: { fr: "Branding & identité, Promotion", en: "Branding & identity, Promotion" },
+    year: "2019-Today",
+    image: "Assets/Logo Focus [PNG]_4.png",
+    video: "",
+    link: "https://focus-corporation.com/",
+    fit: "contain",
+    cover: "Assets/Logo Focus [PNG]_4.png",
+    company: "Focus Corporation",
+    blocks: [
+      {
+        type: "video",
+        src: "https://www.youtube.com/watch?v=fwsrXZ-uRWA",
+        caption: { fr: "SaaS, QAVerse", en: "SaaS, QAVerse" }
+      },
+      { type: "heading", text: { fr: "La portée", en: "The Scope" } },
+      {
+        type: "text",
+        text: {
+          fr: "Création de l'identité visuelle, le branding, conception de la plateforme, création de la vidéo SaaS, teasing et campagne réseaux sociaux",
+          en: "Creating the visual identity & brand, designing the platform, SaaS video creation, teasing and social media campaign"
+        }
+      },
+      {
+        type: "bento",
+        items: [
+          { src: "Assets/F0SM-01.png", size: "tall" },
+          { src: "Assets/f.jpg" },
+          { src: "Assets/F0SM-01.png", size: "tall" },
+          { src: "Assets/F0P-01-02.pngg", size: "tall" },
+          {
+            color: "#6CCFF6",
+            text: {
+              fr: "Plateforme d'Automatisation QA Propulsée par l'IAn",
+              en: "AI-Powered QA Automation Platform"
+            },
+            size: "small"
+          }
+        ]
+      },
+      {
+        type: "link",
+        url: "https://focus-corporation.com",
+        label: { fr: "Voir le site", en: "Visit the website" }
+      }
+    ]
+  },
+   
   {
     title: "LogoFolio",
     tag: { fr: "Identité visuelle", en: "Visual identity" },
@@ -240,7 +298,7 @@ projects: [
           { src: "Assets/Others-01.png", size: "tall" },
           { src: "Assets/IT INCEPTOR-01.png", size: "tall" },
           { src: "Assets/Alia-01.png", size: "tall" },
-          { src: "Assets/Asset 11.png" }
+          { src: "Assets/Fly-01-01.png" }
         ]
       }
     ]
