@@ -348,7 +348,7 @@ projects: [
     title: "Packagings",
     tag: { fr: "Design Produit", en: "Product Design" },
     summary: { fr: "Conception et Design Packaging.", en: "Packaging Design." },
-    image: "Assets/Product Design.jpg",
+    image: "Assets/Product Design-01.jpg",
     fit: "contain",
     cover: "",
     company: "Diverse",
