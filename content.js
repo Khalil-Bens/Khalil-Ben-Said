@@ -71,7 +71,7 @@ window.SITE = {
         { title: { fr: "Web design", en: "Web design" }, text: { fr: "Maquettes UI, landing pages et sites responsive, du wireframe à l’écran.", en: "UI design, landing pages and responsive websites, from wireframe to screen." } },
         { title: { fr: "Éditorial & supports", en: "Editorial & collateral" }, text: { fr: "Brochures, présentations, infographies et contenus réseaux sociaux.", en: "Brochures, presentations, infographics and social media content." } },
         { title: { fr: "Illustration & photo", en: "Illustration & photography" }, text: { fr: "Illustration, digital painting et photographie pour enrichir chaque projet.", en: "Illustration, digital painting and photography to enrich each project." } },
-        { title: { fr: "Marketing & performance", en: "Marketing & performance" }, text: { fr: "LinkedIn Ads, HubSpot, webinaires : le design au service de la conversion.", en: "LinkedIn Ads, HubSpot, webinars: design in service of conversion." } }
+        { title: { fr: "Marketing & performance", en: "Marketing & performance" }, text: { fr: "LinkedIn Ads, CRM, webinaires : le design au service de la conversion.", en: "LinkedIn Ads, CRM, webinars: design in service of conversion." } }
       ]
     },
 
@@ -98,7 +98,9 @@ window.SITE = {
         ] },
         { title: { fr: "Expériences connexes", en: "Worked alongside" }, items: [
           { name: "LinkedIn Ads", tip: "A few projects, same team." },
-          { name: { fr: "Développeurs", en: "Developers" }, tip: "Various internal and external projects." },
+          { name: { fr: "Développeurs", en: "Various internal and external projects." }, tip: "" },
+          { name: { fr: "Marketing", en: "Marketing" }, tip: "The team i'm working with" },
+          { name: { fr: "l'organisation d'événements", en: "Event management" }, tip: "Planning/Organizing" },
           { name: { fr: "Campagnes B2B", en: "B2B campaigns" }, tip: "A few projects, same team." }
         ] },
         { title: { fr: "En cours d’apprentissage", en: "Currently learning" }, items: [
