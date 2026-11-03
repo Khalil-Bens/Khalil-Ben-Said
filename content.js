@@ -79,7 +79,7 @@ window.SITE = {
       kicker: { fr: "Projets", en: "Projects" },
       title: { fr: "Des univers visuels, **du concept à l’écran.**", en: "Visual worlds, **from concept to screen.**" },
       hint: { fr: "Faites glisser pour explorer.", en: "Drag to explore." },
-      behanceText: { fr: "Tout voir sur Behance →", en: "View everything on Behance →" }
+      behanceText: { fr: "Découvrir mes travaux artistiques sur Behance →", en: "Discover my artwork on Behance →" }
     },
 
     skills: {
